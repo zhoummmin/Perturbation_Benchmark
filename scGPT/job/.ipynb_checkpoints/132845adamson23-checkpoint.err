@@ -1,0 +1,11 @@
+cuda-11.8.0 loaded successful
+gcc-9.3.0 loaded successful
+cmake-3.27.0 loaded successful
+openmpi-4.1.2 loaded successful
+Openblas-0.3.25 loaded successful
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:00<00:04,  1.71it/s] 22%|██▏       | 2/9 [01:14<05:04, 43.57s/it] 33%|███▎      | 3/9 [02:34<06:02, 60.36s/it] 44%|████▍     | 4/9 [03:52<05:36, 67.27s/it] 56%|█████▌    | 5/9 [05:01<04:31, 67.89s/it] 67%|██████▋   | 6/9 [06:21<03:35, 71.88s/it]

@@ -1,0 +1,68 @@
+cuda-11.8.0 loaded successful
+gcc-9.3.0 loaded successful
+cmake-3.27.0 loaded successful
+openmpi-4.1.2 loaded successful
+Openblas-0.3.25 loaded successful
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/23 [00:00<?, ?it/s]  4%|▍         | 1/23 [00:16<06:13, 16.98s/it]  9%|▊         | 2/23 [00:29<04:56, 14.12s/it] 13%|█▎        | 3/23 [00:33<03:12,  9.63s/it] 17%|█▋        | 4/23 [00:38<02:31,  8.00s/it] 22%|██▏       | 5/23 [00:45<02:17,  7.61s/it] 26%|██▌       | 6/23 [00:47<01:36,  5.68s/it] 30%|███       | 7/23 [00:52<01:26,  5.41s/it] 35%|███▍      | 8/23 [00:59<01:26,  5.80s/it] 39%|███▉      | 9/23 [01:04<01:19,  5.67s/it] 43%|████▎     | 10/23 [01:10<01:13,  5.64s/it] 48%|████▊     | 11/23 [01:18<01:17,  6.47s/it] 52%|█████▏    | 12/23 [01:28<01:21,  7.42s/it] 57%|█████▋    | 13/23 [01:34<01:11,  7.17s/it] 61%|██████    | 14/23 [01:35<00:48,  5.38s/it] 65%|██████▌   | 15/23 [01:38<00:35,  4.48s/it] 70%|██████▉   | 16/23 [01:43<00:32,  4.68s/it] 74%|███████▍  | 17/23 [01:48<00:28,  4.79s/it] 78%|███████▊  | 18/23 [01:55<00:27,  5.44s/it] 83%|████████▎ | 19/23 [01:59<00:20,  5.00s/it] 87%|████████▋ | 20/23 [02:09<00:19,  6.61s/it] 91%|█████████▏| 21/23 [02:15<00:12,  6.34s/it] 96%|█████████▌| 22/23 [02:17<00:04,  4.97s/it]100%|██████████| 23/23 [02:19<00:00,  4.17s/it]100%|██████████| 23/23 [02:19<00:00,  6.07s/it]
+Saving new dataset pyg object at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/dixit_combined/data_pyg/cell_graphs.pkl
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240728_233433-adec5ueh
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Dixit_combined_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/adec5ueh
+Local copy of pyg dataset is detected. Loading...
+Done!
+Local copy of split is detected. Loading...
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:6
+Done!
+Creating dataloaders....
+Done!
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/Dixit_combined.py", line 347, in <module>
+    pert_data.adata.var["id_in_vocab"] = [
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/Dixit_combined.py", line 348, in <listcomp>
+    1 if gene in vocab else -1 for gene in pert_data.adata.var["gene_name"]
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torchtext/vocab/vocab.py", line 54, in __contains__
+    return self.vocab.__contains__(token)
+TypeError: __contains__(): incompatible function arguments. The following argument types are supported:
+    1. (self: torchtext._torchtext.Vocab, arg0: str) -> bool
+
+Invoked with: <torchtext._torchtext.Vocab object at 0x40015ff75b70>, nan
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/Dixit_combined.py", line 347, in <module>
+    pert_data.adata.var["id_in_vocab"] = [
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/Dixit_combined.py", line 348, in <listcomp>
+    1 if gene in vocab else -1 for gene in pert_data.adata.var["gene_name"]
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torchtext/vocab/vocab.py", line 54, in __contains__
+    return self.vocab.__contains__(token)
+TypeError: __contains__(): incompatible function arguments. The following argument types are supported:
+    1. (self: torchtext._torchtext.Vocab, arg0: str) -> bool
+
+Invoked with: <torchtext._torchtext.Vocab object at 0x40015ff75b70>, nan
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.006 MB of 0.014 MB uploadedwandb: | 0.014 MB of 0.014 MB uploadedwandb: 
+wandb: Run summary:
+wandb: run_time 2024-07-28 23:34:49
+wandb: 
+wandb: 🚀 View run Dixit_combined_split1 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/adec5ueh
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240728_233433-adec5ueh/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/11 [00:00<?, ?it/s]

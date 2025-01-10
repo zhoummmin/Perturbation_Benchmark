@@ -1,0 +1,1059 @@
+环境设置完成！
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/scgpt/split4
+scGPT - INFO - Running on 2024-07-28 23:26:31
+scGPT - INFO - match 5645/5753 genes in vocabulary of size 60697.
+scGPT - INFO - Resume model from /home/share/huadjyin/home/zhoumin3/zhoumin/scgpt/scGPT_human/best_model.pt, the model args will override the config /home/share/huadjyin/home/zhoumin3/zhoumin/scgpt/scGPT_human/args.json.
+Using simple batchnorm instead of domain specific batchnorm
+scGPT - INFO - Loading params encoder.embedding.weight with shape torch.Size([60697, 512])
+scGPT - INFO - Loading params encoder.enc_norm.weight with shape torch.Size([512])
+scGPT - INFO - Loading params encoder.enc_norm.bias with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.linear1.weight with shape torch.Size([512, 1])
+scGPT - INFO - Loading params value_encoder.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params value_encoder.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.norm.weight with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.norm.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm2.bias with shape torch.Size([512])
+scGPT - INFO - | epoch   1 | 100/3101 batches | lr 0.0001 | ms/batch 417.79 | loss  0.27 | mse  0.27 |
+scGPT - INFO - | epoch   1 | 200/3101 batches | lr 0.0001 | ms/batch 392.90 | loss  0.18 | mse  0.18 |
+scGPT - INFO - | epoch   1 | 300/3101 batches | lr 0.0001 | ms/batch 392.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 400/3101 batches | lr 0.0001 | ms/batch 392.53 | loss  0.18 | mse  0.18 |
+scGPT - INFO - | epoch   1 | 500/3101 batches | lr 0.0001 | ms/batch 392.61 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 600/3101 batches | lr 0.0001 | ms/batch 392.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 700/3101 batches | lr 0.0001 | ms/batch 392.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 800/3101 batches | lr 0.0001 | ms/batch 392.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 900/3101 batches | lr 0.0001 | ms/batch 392.47 | loss  0.18 | mse  0.18 |
+scGPT - INFO - | epoch   1 | 1000/3101 batches | lr 0.0001 | ms/batch 392.48 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1100/3101 batches | lr 0.0001 | ms/batch 392.37 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1200/3101 batches | lr 0.0001 | ms/batch 392.45 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1300/3101 batches | lr 0.0001 | ms/batch 392.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1400/3101 batches | lr 0.0001 | ms/batch 392.60 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1500/3101 batches | lr 0.0001 | ms/batch 393.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1600/3101 batches | lr 0.0001 | ms/batch 393.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1700/3101 batches | lr 0.0001 | ms/batch 393.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1800/3101 batches | lr 0.0001 | ms/batch 393.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1900/3101 batches | lr 0.0001 | ms/batch 393.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2000/3101 batches | lr 0.0001 | ms/batch 393.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2100/3101 batches | lr 0.0001 | ms/batch 393.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2200/3101 batches | lr 0.0001 | ms/batch 393.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2300/3101 batches | lr 0.0001 | ms/batch 393.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2400/3101 batches | lr 0.0001 | ms/batch 392.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2500/3101 batches | lr 0.0001 | ms/batch 393.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2600/3101 batches | lr 0.0001 | ms/batch 393.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2700/3101 batches | lr 0.0001 | ms/batch 393.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2800/3101 batches | lr 0.0001 | ms/batch 393.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2900/3101 batches | lr 0.0001 | ms/batch 393.28 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 3000/3101 batches | lr 0.0001 | ms/batch 393.58 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 3100/3101 batches | lr 0.0001 | ms/batch 393.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   1 | time: 1274.50s | valid loss/mse 0.1742 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1742
+scGPT - INFO - | epoch   2 | 100/3101 batches | lr 0.0001 | ms/batch 396.83 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 200/3101 batches | lr 0.0001 | ms/batch 393.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 300/3101 batches | lr 0.0001 | ms/batch 393.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 400/3101 batches | lr 0.0001 | ms/batch 392.99 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 500/3101 batches | lr 0.0001 | ms/batch 392.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 600/3101 batches | lr 0.0001 | ms/batch 392.93 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 700/3101 batches | lr 0.0001 | ms/batch 392.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 800/3101 batches | lr 0.0001 | ms/batch 392.88 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 900/3101 batches | lr 0.0001 | ms/batch 392.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1000/3101 batches | lr 0.0001 | ms/batch 393.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1100/3101 batches | lr 0.0001 | ms/batch 393.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1200/3101 batches | lr 0.0001 | ms/batch 393.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1300/3101 batches | lr 0.0001 | ms/batch 392.37 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1400/3101 batches | lr 0.0001 | ms/batch 392.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1500/3101 batches | lr 0.0001 | ms/batch 392.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1600/3101 batches | lr 0.0001 | ms/batch 392.15 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1700/3101 batches | lr 0.0001 | ms/batch 392.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1800/3101 batches | lr 0.0001 | ms/batch 392.25 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1900/3101 batches | lr 0.0001 | ms/batch 392.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2000/3101 batches | lr 0.0001 | ms/batch 392.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2100/3101 batches | lr 0.0001 | ms/batch 392.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2200/3101 batches | lr 0.0001 | ms/batch 392.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2300/3101 batches | lr 0.0001 | ms/batch 392.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2400/3101 batches | lr 0.0001 | ms/batch 392.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2500/3101 batches | lr 0.0001 | ms/batch 392.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2600/3101 batches | lr 0.0001 | ms/batch 392.08 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2700/3101 batches | lr 0.0001 | ms/batch 392.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2800/3101 batches | lr 0.0001 | ms/batch 392.35 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2900/3101 batches | lr 0.0001 | ms/batch 392.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 3000/3101 batches | lr 0.0001 | ms/batch 392.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 3100/3101 batches | lr 0.0001 | ms/batch 392.16 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   2 | time: 1271.32s | valid loss/mse 0.1743 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   3 | 100/3101 batches | lr 0.0001 | ms/batch 398.41 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 200/3101 batches | lr 0.0001 | ms/batch 394.29 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 300/3101 batches | lr 0.0001 | ms/batch 394.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 400/3101 batches | lr 0.0001 | ms/batch 394.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 500/3101 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 600/3101 batches | lr 0.0001 | ms/batch 394.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 700/3101 batches | lr 0.0001 | ms/batch 394.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 800/3101 batches | lr 0.0001 | ms/batch 394.34 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 900/3101 batches | lr 0.0001 | ms/batch 394.15 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1000/3101 batches | lr 0.0001 | ms/batch 394.32 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1100/3101 batches | lr 0.0001 | ms/batch 394.31 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1200/3101 batches | lr 0.0001 | ms/batch 394.33 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1300/3101 batches | lr 0.0001 | ms/batch 394.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1400/3101 batches | lr 0.0001 | ms/batch 394.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1500/3101 batches | lr 0.0001 | ms/batch 394.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1600/3101 batches | lr 0.0001 | ms/batch 394.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1700/3101 batches | lr 0.0001 | ms/batch 394.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1800/3101 batches | lr 0.0001 | ms/batch 394.25 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1900/3101 batches | lr 0.0001 | ms/batch 394.25 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2000/3101 batches | lr 0.0001 | ms/batch 394.33 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2100/3101 batches | lr 0.0001 | ms/batch 394.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2200/3101 batches | lr 0.0001 | ms/batch 394.19 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2300/3101 batches | lr 0.0001 | ms/batch 394.29 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2400/3101 batches | lr 0.0001 | ms/batch 394.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2500/3101 batches | lr 0.0001 | ms/batch 394.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2600/3101 batches | lr 0.0001 | ms/batch 394.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2700/3101 batches | lr 0.0001 | ms/batch 394.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2800/3101 batches | lr 0.0001 | ms/batch 394.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2900/3101 batches | lr 0.0001 | ms/batch 394.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 3000/3101 batches | lr 0.0001 | ms/batch 394.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 3100/3101 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   3 | time: 1276.82s | valid loss/mse 0.1740 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1740
+scGPT - INFO - | epoch   4 | 100/3101 batches | lr 0.0001 | ms/batch 398.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 200/3101 batches | lr 0.0001 | ms/batch 393.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 300/3101 batches | lr 0.0001 | ms/batch 394.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 400/3101 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 500/3101 batches | lr 0.0001 | ms/batch 394.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 600/3101 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 700/3101 batches | lr 0.0001 | ms/batch 393.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 800/3101 batches | lr 0.0001 | ms/batch 393.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 900/3101 batches | lr 0.0001 | ms/batch 393.73 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1000/3101 batches | lr 0.0001 | ms/batch 393.95 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1100/3101 batches | lr 0.0001 | ms/batch 394.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1200/3101 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1300/3101 batches | lr 0.0001 | ms/batch 394.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1400/3101 batches | lr 0.0001 | ms/batch 394.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1500/3101 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1600/3101 batches | lr 0.0001 | ms/batch 394.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1700/3101 batches | lr 0.0001 | ms/batch 394.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1800/3101 batches | lr 0.0001 | ms/batch 394.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1900/3101 batches | lr 0.0001 | ms/batch 394.34 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2000/3101 batches | lr 0.0001 | ms/batch 394.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2100/3101 batches | lr 0.0001 | ms/batch 394.31 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2200/3101 batches | lr 0.0001 | ms/batch 394.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2300/3101 batches | lr 0.0001 | ms/batch 394.26 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2400/3101 batches | lr 0.0001 | ms/batch 394.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2500/3101 batches | lr 0.0001 | ms/batch 394.33 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2600/3101 batches | lr 0.0001 | ms/batch 394.35 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2700/3101 batches | lr 0.0001 | ms/batch 394.42 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2800/3101 batches | lr 0.0001 | ms/batch 394.43 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2900/3101 batches | lr 0.0001 | ms/batch 394.15 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 3000/3101 batches | lr 0.0001 | ms/batch 394.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 3100/3101 batches | lr 0.0001 | ms/batch 394.46 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   4 | time: 1276.29s | valid loss/mse 0.1724 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1724
+scGPT - INFO - | epoch   5 | 100/3101 batches | lr 0.0001 | ms/batch 397.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 200/3101 batches | lr 0.0001 | ms/batch 393.41 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 300/3101 batches | lr 0.0001 | ms/batch 393.36 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 400/3101 batches | lr 0.0001 | ms/batch 393.36 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 500/3101 batches | lr 0.0001 | ms/batch 393.49 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 600/3101 batches | lr 0.0001 | ms/batch 393.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 700/3101 batches | lr 0.0001 | ms/batch 393.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 800/3101 batches | lr 0.0001 | ms/batch 394.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 900/3101 batches | lr 0.0001 | ms/batch 393.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1000/3101 batches | lr 0.0001 | ms/batch 393.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1100/3101 batches | lr 0.0001 | ms/batch 393.73 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1200/3101 batches | lr 0.0001 | ms/batch 393.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1300/3101 batches | lr 0.0001 | ms/batch 394.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1400/3101 batches | lr 0.0001 | ms/batch 394.08 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1500/3101 batches | lr 0.0001 | ms/batch 394.45 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1600/3101 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1700/3101 batches | lr 0.0001 | ms/batch 394.26 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1800/3101 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1900/3101 batches | lr 0.0001 | ms/batch 393.99 | loss  0.16 | mse  0.16 |
+scGPT - INFO - | epoch   5 | 2000/3101 batches | lr 0.0001 | ms/batch 394.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2100/3101 batches | lr 0.0001 | ms/batch 394.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2200/3101 batches | lr 0.0001 | ms/batch 393.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2300/3101 batches | lr 0.0001 | ms/batch 393.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2400/3101 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2500/3101 batches | lr 0.0001 | ms/batch 394.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2600/3101 batches | lr 0.0001 | ms/batch 394.31 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2700/3101 batches | lr 0.0001 | ms/batch 394.08 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2800/3101 batches | lr 0.0001 | ms/batch 394.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2900/3101 batches | lr 0.0001 | ms/batch 394.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 3000/3101 batches | lr 0.0001 | ms/batch 393.85 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 3100/3101 batches | lr 0.0001 | ms/batch 393.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   5 | time: 1275.85s | valid loss/mse 0.1733 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   6 | 100/3101 batches | lr 0.0001 | ms/batch 398.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 200/3101 batches | lr 0.0001 | ms/batch 393.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 300/3101 batches | lr 0.0001 | ms/batch 394.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 400/3101 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 500/3101 batches | lr 0.0001 | ms/batch 393.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 600/3101 batches | lr 0.0001 | ms/batch 394.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 700/3101 batches | lr 0.0001 | ms/batch 394.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 800/3101 batches | lr 0.0001 | ms/batch 396.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 900/3101 batches | lr 0.0001 | ms/batch 395.08 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1000/3101 batches | lr 0.0001 | ms/batch 394.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1100/3101 batches | lr 0.0001 | ms/batch 394.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1200/3101 batches | lr 0.0001 | ms/batch 394.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1300/3101 batches | lr 0.0001 | ms/batch 395.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1400/3101 batches | lr 0.0001 | ms/batch 394.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1500/3101 batches | lr 0.0001 | ms/batch 394.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1600/3101 batches | lr 0.0001 | ms/batch 395.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1700/3101 batches | lr 0.0001 | ms/batch 394.56 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1800/3101 batches | lr 0.0001 | ms/batch 394.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1900/3101 batches | lr 0.0001 | ms/batch 394.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2000/3101 batches | lr 0.0001 | ms/batch 395.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2100/3101 batches | lr 0.0001 | ms/batch 395.29 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2200/3101 batches | lr 0.0001 | ms/batch 395.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2300/3101 batches | lr 0.0001 | ms/batch 394.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2400/3101 batches | lr 0.0001 | ms/batch 395.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2500/3101 batches | lr 0.0001 | ms/batch 394.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2600/3101 batches | lr 0.0001 | ms/batch 395.99 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2700/3101 batches | lr 0.0001 | ms/batch 395.39 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2800/3101 batches | lr 0.0001 | ms/batch 395.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2900/3101 batches | lr 0.0001 | ms/batch 395.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 3000/3101 batches | lr 0.0001 | ms/batch 394.76 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 3100/3101 batches | lr 0.0001 | ms/batch 395.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   6 | time: 1278.87s | valid loss/mse 0.1727 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   7 | 100/3101 batches | lr 0.0001 | ms/batch 399.36 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 200/3101 batches | lr 0.0001 | ms/batch 395.43 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 300/3101 batches | lr 0.0001 | ms/batch 395.35 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 400/3101 batches | lr 0.0001 | ms/batch 395.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 500/3101 batches | lr 0.0001 | ms/batch 395.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 600/3101 batches | lr 0.0001 | ms/batch 395.53 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 700/3101 batches | lr 0.0001 | ms/batch 395.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 800/3101 batches | lr 0.0001 | ms/batch 396.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 900/3101 batches | lr 0.0001 | ms/batch 395.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1000/3101 batches | lr 0.0001 | ms/batch 396.37 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1100/3101 batches | lr 0.0001 | ms/batch 396.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1200/3101 batches | lr 0.0001 | ms/batch 396.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1300/3101 batches | lr 0.0001 | ms/batch 396.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1400/3101 batches | lr 0.0001 | ms/batch 396.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1500/3101 batches | lr 0.0001 | ms/batch 396.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1600/3101 batches | lr 0.0001 | ms/batch 395.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1700/3101 batches | lr 0.0001 | ms/batch 395.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1800/3101 batches | lr 0.0001 | ms/batch 396.81 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1900/3101 batches | lr 0.0001 | ms/batch 396.29 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2000/3101 batches | lr 0.0001 | ms/batch 396.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2100/3101 batches | lr 0.0001 | ms/batch 396.19 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2200/3101 batches | lr 0.0001 | ms/batch 395.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2300/3101 batches | lr 0.0001 | ms/batch 395.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2400/3101 batches | lr 0.0001 | ms/batch 396.25 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2500/3101 batches | lr 0.0001 | ms/batch 396.56 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2600/3101 batches | lr 0.0001 | ms/batch 396.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2700/3101 batches | lr 0.0001 | ms/batch 396.36 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2800/3101 batches | lr 0.0001 | ms/batch 396.75 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2900/3101 batches | lr 0.0001 | ms/batch 397.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 3000/3101 batches | lr 0.0001 | ms/batch 396.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 3100/3101 batches | lr 0.0001 | ms/batch 396.58 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   7 | time: 1283.25s | valid loss/mse 0.1727 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   8 | 100/3101 batches | lr 0.0000 | ms/batch 400.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 200/3101 batches | lr 0.0000 | ms/batch 396.49 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 300/3101 batches | lr 0.0000 | ms/batch 396.79 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 400/3101 batches | lr 0.0000 | ms/batch 396.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 500/3101 batches | lr 0.0000 | ms/batch 396.81 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 600/3101 batches | lr 0.0000 | ms/batch 396.51 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 700/3101 batches | lr 0.0000 | ms/batch 396.56 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 800/3101 batches | lr 0.0000 | ms/batch 396.69 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 900/3101 batches | lr 0.0000 | ms/batch 396.74 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1000/3101 batches | lr 0.0000 | ms/batch 396.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1100/3101 batches | lr 0.0000 | ms/batch 396.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1200/3101 batches | lr 0.0000 | ms/batch 396.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1300/3101 batches | lr 0.0000 | ms/batch 397.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1400/3101 batches | lr 0.0000 | ms/batch 397.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1500/3101 batches | lr 0.0000 | ms/batch 396.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1600/3101 batches | lr 0.0000 | ms/batch 397.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1700/3101 batches | lr 0.0000 | ms/batch 397.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1800/3101 batches | lr 0.0000 | ms/batch 397.19 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1900/3101 batches | lr 0.0000 | ms/batch 397.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2000/3101 batches | lr 0.0000 | ms/batch 396.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2100/3101 batches | lr 0.0000 | ms/batch 396.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2200/3101 batches | lr 0.0000 | ms/batch 396.71 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2300/3101 batches | lr 0.0000 | ms/batch 396.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2400/3101 batches | lr 0.0000 | ms/batch 396.85 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2500/3101 batches | lr 0.0000 | ms/batch 396.56 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2600/3101 batches | lr 0.0000 | ms/batch 396.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2700/3101 batches | lr 0.0000 | ms/batch 396.95 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2800/3101 batches | lr 0.0000 | ms/batch 396.85 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2900/3101 batches | lr 0.0000 | ms/batch 396.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 3000/3101 batches | lr 0.0000 | ms/batch 396.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 3100/3101 batches | lr 0.0000 | ms/batch 396.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   8 | time: 1285.47s | valid loss/mse 0.1731 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   9 | 100/3101 batches | lr 0.0000 | ms/batch 400.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 200/3101 batches | lr 0.0000 | ms/batch 396.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 300/3101 batches | lr 0.0000 | ms/batch 395.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 400/3101 batches | lr 0.0000 | ms/batch 395.41 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 500/3101 batches | lr 0.0000 | ms/batch 395.49 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 600/3101 batches | lr 0.0000 | ms/batch 395.79 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 700/3101 batches | lr 0.0000 | ms/batch 395.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 800/3101 batches | lr 0.0000 | ms/batch 396.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 900/3101 batches | lr 0.0000 | ms/batch 396.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1000/3101 batches | lr 0.0000 | ms/batch 396.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1100/3101 batches | lr 0.0000 | ms/batch 396.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1200/3101 batches | lr 0.0000 | ms/batch 397.16 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1300/3101 batches | lr 0.0000 | ms/batch 396.15 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1400/3101 batches | lr 0.0000 | ms/batch 396.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1500/3101 batches | lr 0.0000 | ms/batch 395.37 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1600/3101 batches | lr 0.0000 | ms/batch 395.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1700/3101 batches | lr 0.0000 | ms/batch 395.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1800/3101 batches | lr 0.0000 | ms/batch 395.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1900/3101 batches | lr 0.0000 | ms/batch 396.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2000/3101 batches | lr 0.0000 | ms/batch 396.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2100/3101 batches | lr 0.0000 | ms/batch 395.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2200/3101 batches | lr 0.0000 | ms/batch 396.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2300/3101 batches | lr 0.0000 | ms/batch 396.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2400/3101 batches | lr 0.0000 | ms/batch 395.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2500/3101 batches | lr 0.0000 | ms/batch 395.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2600/3101 batches | lr 0.0000 | ms/batch 395.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2700/3101 batches | lr 0.0000 | ms/batch 395.75 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2800/3101 batches | lr 0.0000 | ms/batch 395.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2900/3101 batches | lr 0.0000 | ms/batch 395.88 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 3000/3101 batches | lr 0.0000 | ms/batch 396.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 3100/3101 batches | lr 0.0000 | ms/batch 396.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   9 | time: 1282.94s | valid loss/mse 0.1725 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Early stop at epoch 9
+---Creating test_res
+test_res saved successfully----
+Split4 computation completed
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/scgpt/split5
+scGPT - INFO - Running on 2024-07-29 04:27:15
+scGPT - INFO - match 5645/5753 genes in vocabulary of size 60697.
+scGPT - INFO - Resume model from /home/share/huadjyin/home/zhoumin3/zhoumin/scgpt/scGPT_human/best_model.pt, the model args will override the config /home/share/huadjyin/home/zhoumin3/zhoumin/scgpt/scGPT_human/args.json.
+Using simple batchnorm instead of domain specific batchnorm
+scGPT - INFO - Loading params encoder.embedding.weight with shape torch.Size([60697, 512])
+scGPT - INFO - Loading params encoder.enc_norm.weight with shape torch.Size([512])
+scGPT - INFO - Loading params encoder.enc_norm.bias with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.linear1.weight with shape torch.Size([512, 1])
+scGPT - INFO - Loading params value_encoder.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params value_encoder.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.norm.weight with shape torch.Size([512])
+scGPT - INFO - Loading params value_encoder.norm.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.0.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.1.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.2.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.3.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.4.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.5.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.6.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.7.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.8.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.9.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.10.norm2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.Wqkv.weight with shape torch.Size([1536, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.Wqkv.bias with shape torch.Size([1536])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.out_proj.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.self_attn.out_proj.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear1.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear2.weight with shape torch.Size([512, 512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.linear2.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm1.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm1.bias with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm2.weight with shape torch.Size([512])
+scGPT - INFO - Loading params transformer_encoder.layers.11.norm2.bias with shape torch.Size([512])
+scGPT - INFO - | epoch   1 | 100/3236 batches | lr 0.0001 | ms/batch 404.45 | loss  0.32 | mse  0.32 |
+scGPT - INFO - | epoch   1 | 200/3236 batches | lr 0.0001 | ms/batch 395.20 | loss  0.18 | mse  0.18 |
+scGPT - INFO - | epoch   1 | 300/3236 batches | lr 0.0001 | ms/batch 394.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 400/3236 batches | lr 0.0001 | ms/batch 394.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 500/3236 batches | lr 0.0001 | ms/batch 394.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 600/3236 batches | lr 0.0001 | ms/batch 394.33 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 700/3236 batches | lr 0.0001 | ms/batch 394.26 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 800/3236 batches | lr 0.0001 | ms/batch 394.48 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 900/3236 batches | lr 0.0001 | ms/batch 394.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1000/3236 batches | lr 0.0001 | ms/batch 395.48 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1100/3236 batches | lr 0.0001 | ms/batch 394.56 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1200/3236 batches | lr 0.0001 | ms/batch 394.44 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1300/3236 batches | lr 0.0001 | ms/batch 394.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1400/3236 batches | lr 0.0001 | ms/batch 394.28 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1500/3236 batches | lr 0.0001 | ms/batch 394.60 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1600/3236 batches | lr 0.0001 | ms/batch 395.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1700/3236 batches | lr 0.0001 | ms/batch 394.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1800/3236 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 1900/3236 batches | lr 0.0001 | ms/batch 394.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2000/3236 batches | lr 0.0001 | ms/batch 394.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2100/3236 batches | lr 0.0001 | ms/batch 394.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2200/3236 batches | lr 0.0001 | ms/batch 394.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2300/3236 batches | lr 0.0001 | ms/batch 394.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2400/3236 batches | lr 0.0001 | ms/batch 394.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2500/3236 batches | lr 0.0001 | ms/batch 394.31 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2600/3236 batches | lr 0.0001 | ms/batch 393.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2700/3236 batches | lr 0.0001 | ms/batch 393.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2800/3236 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 2900/3236 batches | lr 0.0001 | ms/batch 393.74 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 3000/3236 batches | lr 0.0001 | ms/batch 394.25 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 3100/3236 batches | lr 0.0001 | ms/batch 393.77 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   1 | 3200/3236 batches | lr 0.0001 | ms/batch 393.76 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   1 | time: 1326.97s | valid loss/mse 0.1782 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1782
+scGPT - INFO - | epoch   2 | 100/3236 batches | lr 0.0001 | ms/batch 397.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 200/3236 batches | lr 0.0001 | ms/batch 393.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 300/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 400/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 500/3236 batches | lr 0.0001 | ms/batch 393.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 600/3236 batches | lr 0.0001 | ms/batch 393.61 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 700/3236 batches | lr 0.0001 | ms/batch 393.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 800/3236 batches | lr 0.0001 | ms/batch 393.48 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 900/3236 batches | lr 0.0001 | ms/batch 393.45 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1000/3236 batches | lr 0.0001 | ms/batch 393.46 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1100/3236 batches | lr 0.0001 | ms/batch 393.60 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1200/3236 batches | lr 0.0001 | ms/batch 393.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1300/3236 batches | lr 0.0001 | ms/batch 393.53 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1400/3236 batches | lr 0.0001 | ms/batch 393.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1500/3236 batches | lr 0.0001 | ms/batch 393.69 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1600/3236 batches | lr 0.0001 | ms/batch 393.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1700/3236 batches | lr 0.0001 | ms/batch 393.73 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1800/3236 batches | lr 0.0001 | ms/batch 393.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 1900/3236 batches | lr 0.0001 | ms/batch 393.69 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2000/3236 batches | lr 0.0001 | ms/batch 393.65 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2100/3236 batches | lr 0.0001 | ms/batch 393.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2200/3236 batches | lr 0.0001 | ms/batch 393.69 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2300/3236 batches | lr 0.0001 | ms/batch 393.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2400/3236 batches | lr 0.0001 | ms/batch 393.76 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2500/3236 batches | lr 0.0001 | ms/batch 393.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2600/3236 batches | lr 0.0001 | ms/batch 393.77 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2700/3236 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2800/3236 batches | lr 0.0001 | ms/batch 393.74 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 2900/3236 batches | lr 0.0001 | ms/batch 393.69 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 3000/3236 batches | lr 0.0001 | ms/batch 393.55 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 3100/3236 batches | lr 0.0001 | ms/batch 393.55 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   2 | 3200/3236 batches | lr 0.0001 | ms/batch 393.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   2 | time: 1323.53s | valid loss/mse 0.1771 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1771
+scGPT - INFO - | epoch   3 | 100/3236 batches | lr 0.0001 | ms/batch 397.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 200/3236 batches | lr 0.0001 | ms/batch 393.46 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 300/3236 batches | lr 0.0001 | ms/batch 393.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 400/3236 batches | lr 0.0001 | ms/batch 393.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 500/3236 batches | lr 0.0001 | ms/batch 393.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 600/3236 batches | lr 0.0001 | ms/batch 393.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 700/3236 batches | lr 0.0001 | ms/batch 393.83 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 800/3236 batches | lr 0.0001 | ms/batch 393.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 900/3236 batches | lr 0.0001 | ms/batch 393.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1000/3236 batches | lr 0.0001 | ms/batch 393.45 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1100/3236 batches | lr 0.0001 | ms/batch 393.58 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1200/3236 batches | lr 0.0001 | ms/batch 393.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1300/3236 batches | lr 0.0001 | ms/batch 393.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1400/3236 batches | lr 0.0001 | ms/batch 393.73 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1500/3236 batches | lr 0.0001 | ms/batch 393.83 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1600/3236 batches | lr 0.0001 | ms/batch 394.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1700/3236 batches | lr 0.0001 | ms/batch 393.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1800/3236 batches | lr 0.0001 | ms/batch 393.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 1900/3236 batches | lr 0.0001 | ms/batch 393.71 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2000/3236 batches | lr 0.0001 | ms/batch 393.71 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2100/3236 batches | lr 0.0001 | ms/batch 393.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2200/3236 batches | lr 0.0001 | ms/batch 393.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2300/3236 batches | lr 0.0001 | ms/batch 394.32 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2400/3236 batches | lr 0.0001 | ms/batch 394.38 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2500/3236 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2600/3236 batches | lr 0.0001 | ms/batch 393.85 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2700/3236 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2800/3236 batches | lr 0.0001 | ms/batch 393.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 2900/3236 batches | lr 0.0001 | ms/batch 393.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 3000/3236 batches | lr 0.0001 | ms/batch 394.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 3100/3236 batches | lr 0.0001 | ms/batch 394.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   3 | 3200/3236 batches | lr 0.0001 | ms/batch 394.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   3 | time: 1324.10s | valid loss/mse 0.1779 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   4 | 100/3236 batches | lr 0.0001 | ms/batch 398.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 200/3236 batches | lr 0.0001 | ms/batch 394.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 300/3236 batches | lr 0.0001 | ms/batch 394.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 400/3236 batches | lr 0.0001 | ms/batch 394.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 500/3236 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 600/3236 batches | lr 0.0001 | ms/batch 394.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 700/3236 batches | lr 0.0001 | ms/batch 394.24 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 800/3236 batches | lr 0.0001 | ms/batch 394.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 900/3236 batches | lr 0.0001 | ms/batch 394.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1000/3236 batches | lr 0.0001 | ms/batch 394.16 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1100/3236 batches | lr 0.0001 | ms/batch 394.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1200/3236 batches | lr 0.0001 | ms/batch 394.31 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1300/3236 batches | lr 0.0001 | ms/batch 394.88 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1400/3236 batches | lr 0.0001 | ms/batch 395.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1500/3236 batches | lr 0.0001 | ms/batch 394.38 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1600/3236 batches | lr 0.0001 | ms/batch 394.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1700/3236 batches | lr 0.0001 | ms/batch 394.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1800/3236 batches | lr 0.0001 | ms/batch 394.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 1900/3236 batches | lr 0.0001 | ms/batch 394.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2000/3236 batches | lr 0.0001 | ms/batch 394.19 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2100/3236 batches | lr 0.0001 | ms/batch 394.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2200/3236 batches | lr 0.0001 | ms/batch 394.28 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2300/3236 batches | lr 0.0001 | ms/batch 394.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2400/3236 batches | lr 0.0001 | ms/batch 394.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2500/3236 batches | lr 0.0001 | ms/batch 394.29 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2600/3236 batches | lr 0.0001 | ms/batch 394.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2700/3236 batches | lr 0.0001 | ms/batch 394.19 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2800/3236 batches | lr 0.0001 | ms/batch 394.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 2900/3236 batches | lr 0.0001 | ms/batch 394.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 3000/3236 batches | lr 0.0001 | ms/batch 394.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 3100/3236 batches | lr 0.0001 | ms/batch 394.16 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   4 | 3200/3236 batches | lr 0.0001 | ms/batch 394.16 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   4 | time: 1325.45s | valid loss/mse 0.1770 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1770
+scGPT - INFO - | epoch   5 | 100/3236 batches | lr 0.0001 | ms/batch 398.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 200/3236 batches | lr 0.0001 | ms/batch 394.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 300/3236 batches | lr 0.0001 | ms/batch 394.04 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 400/3236 batches | lr 0.0001 | ms/batch 394.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 500/3236 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 600/3236 batches | lr 0.0001 | ms/batch 393.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 700/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 800/3236 batches | lr 0.0001 | ms/batch 393.93 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 900/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1000/3236 batches | lr 0.0001 | ms/batch 394.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1100/3236 batches | lr 0.0001 | ms/batch 393.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1200/3236 batches | lr 0.0001 | ms/batch 393.95 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1300/3236 batches | lr 0.0001 | ms/batch 394.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1400/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1500/3236 batches | lr 0.0001 | ms/batch 393.74 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1600/3236 batches | lr 0.0001 | ms/batch 393.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1700/3236 batches | lr 0.0001 | ms/batch 393.85 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1800/3236 batches | lr 0.0001 | ms/batch 393.95 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 1900/3236 batches | lr 0.0001 | ms/batch 393.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2000/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2100/3236 batches | lr 0.0001 | ms/batch 393.76 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2200/3236 batches | lr 0.0001 | ms/batch 393.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2300/3236 batches | lr 0.0001 | ms/batch 393.81 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2400/3236 batches | lr 0.0001 | ms/batch 394.32 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2500/3236 batches | lr 0.0001 | ms/batch 393.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2600/3236 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2700/3236 batches | lr 0.0001 | ms/batch 394.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2800/3236 batches | lr 0.0001 | ms/batch 394.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 2900/3236 batches | lr 0.0001 | ms/batch 394.11 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 3000/3236 batches | lr 0.0001 | ms/batch 394.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 3100/3236 batches | lr 0.0001 | ms/batch 394.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   5 | 3200/3236 batches | lr 0.0001 | ms/batch 394.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   5 | time: 1324.66s | valid loss/mse 0.1774 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   6 | 100/3236 batches | lr 0.0001 | ms/batch 397.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 200/3236 batches | lr 0.0001 | ms/batch 393.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 300/3236 batches | lr 0.0001 | ms/batch 393.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 400/3236 batches | lr 0.0001 | ms/batch 393.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 500/3236 batches | lr 0.0001 | ms/batch 393.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 600/3236 batches | lr 0.0001 | ms/batch 393.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 700/3236 batches | lr 0.0001 | ms/batch 393.79 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 800/3236 batches | lr 0.0001 | ms/batch 393.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 900/3236 batches | lr 0.0001 | ms/batch 393.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1000/3236 batches | lr 0.0001 | ms/batch 393.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1100/3236 batches | lr 0.0001 | ms/batch 393.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1200/3236 batches | lr 0.0001 | ms/batch 393.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1300/3236 batches | lr 0.0001 | ms/batch 394.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1400/3236 batches | lr 0.0001 | ms/batch 394.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1500/3236 batches | lr 0.0001 | ms/batch 394.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1600/3236 batches | lr 0.0001 | ms/batch 394.47 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1700/3236 batches | lr 0.0001 | ms/batch 394.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1800/3236 batches | lr 0.0001 | ms/batch 394.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 1900/3236 batches | lr 0.0001 | ms/batch 394.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2000/3236 batches | lr 0.0001 | ms/batch 394.30 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2100/3236 batches | lr 0.0001 | ms/batch 394.26 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2200/3236 batches | lr 0.0001 | ms/batch 394.26 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2300/3236 batches | lr 0.0001 | ms/batch 394.26 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2400/3236 batches | lr 0.0001 | ms/batch 394.61 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2500/3236 batches | lr 0.0001 | ms/batch 394.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2600/3236 batches | lr 0.0001 | ms/batch 394.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2700/3236 batches | lr 0.0001 | ms/batch 394.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2800/3236 batches | lr 0.0001 | ms/batch 394.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 2900/3236 batches | lr 0.0001 | ms/batch 394.61 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 3000/3236 batches | lr 0.0001 | ms/batch 394.56 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 3100/3236 batches | lr 0.0001 | ms/batch 394.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   6 | 3200/3236 batches | lr 0.0001 | ms/batch 394.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   6 | time: 1325.85s | valid loss/mse 0.1766 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1766
+scGPT - INFO - | epoch   7 | 100/3236 batches | lr 0.0001 | ms/batch 398.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 200/3236 batches | lr 0.0001 | ms/batch 394.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 300/3236 batches | lr 0.0001 | ms/batch 394.72 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 400/3236 batches | lr 0.0001 | ms/batch 394.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 500/3236 batches | lr 0.0001 | ms/batch 394.81 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 600/3236 batches | lr 0.0001 | ms/batch 394.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 700/3236 batches | lr 0.0001 | ms/batch 394.99 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 800/3236 batches | lr 0.0001 | ms/batch 395.08 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 900/3236 batches | lr 0.0001 | ms/batch 394.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1000/3236 batches | lr 0.0001 | ms/batch 394.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1100/3236 batches | lr 0.0001 | ms/batch 394.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1200/3236 batches | lr 0.0001 | ms/batch 394.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1300/3236 batches | lr 0.0001 | ms/batch 394.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1400/3236 batches | lr 0.0001 | ms/batch 395.32 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1500/3236 batches | lr 0.0001 | ms/batch 394.77 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1600/3236 batches | lr 0.0001 | ms/batch 394.82 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1700/3236 batches | lr 0.0001 | ms/batch 394.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1800/3236 batches | lr 0.0001 | ms/batch 394.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 1900/3236 batches | lr 0.0001 | ms/batch 394.45 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2000/3236 batches | lr 0.0001 | ms/batch 394.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2100/3236 batches | lr 0.0001 | ms/batch 394.60 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2200/3236 batches | lr 0.0001 | ms/batch 394.69 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2300/3236 batches | lr 0.0001 | ms/batch 394.77 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2400/3236 batches | lr 0.0001 | ms/batch 394.93 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2500/3236 batches | lr 0.0001 | ms/batch 394.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2600/3236 batches | lr 0.0001 | ms/batch 394.79 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2700/3236 batches | lr 0.0001 | ms/batch 394.88 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2800/3236 batches | lr 0.0001 | ms/batch 395.00 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 2900/3236 batches | lr 0.0001 | ms/batch 395.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 3000/3236 batches | lr 0.0001 | ms/batch 395.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 3100/3236 batches | lr 0.0001 | ms/batch 394.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   7 | 3200/3236 batches | lr 0.0001 | ms/batch 395.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   7 | time: 1327.71s | valid loss/mse 0.1765 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Best model with score 0.1765
+scGPT - INFO - | epoch   8 | 100/3236 batches | lr 0.0000 | ms/batch 398.68 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 200/3236 batches | lr 0.0000 | ms/batch 395.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 300/3236 batches | lr 0.0000 | ms/batch 395.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 400/3236 batches | lr 0.0000 | ms/batch 395.55 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 500/3236 batches | lr 0.0000 | ms/batch 395.38 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 600/3236 batches | lr 0.0000 | ms/batch 395.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 700/3236 batches | lr 0.0000 | ms/batch 395.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 800/3236 batches | lr 0.0000 | ms/batch 395.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 900/3236 batches | lr 0.0000 | ms/batch 395.95 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1000/3236 batches | lr 0.0000 | ms/batch 395.51 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1100/3236 batches | lr 0.0000 | ms/batch 395.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1200/3236 batches | lr 0.0000 | ms/batch 395.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1300/3236 batches | lr 0.0000 | ms/batch 396.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1400/3236 batches | lr 0.0000 | ms/batch 395.92 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1500/3236 batches | lr 0.0000 | ms/batch 396.02 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1600/3236 batches | lr 0.0000 | ms/batch 395.73 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1700/3236 batches | lr 0.0000 | ms/batch 395.75 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1800/3236 batches | lr 0.0000 | ms/batch 395.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 1900/3236 batches | lr 0.0000 | ms/batch 395.90 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2000/3236 batches | lr 0.0000 | ms/batch 396.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2100/3236 batches | lr 0.0000 | ms/batch 395.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2200/3236 batches | lr 0.0000 | ms/batch 396.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2300/3236 batches | lr 0.0000 | ms/batch 396.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2400/3236 batches | lr 0.0000 | ms/batch 396.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2500/3236 batches | lr 0.0000 | ms/batch 396.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2600/3236 batches | lr 0.0000 | ms/batch 396.59 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2700/3236 batches | lr 0.0000 | ms/batch 396.37 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2800/3236 batches | lr 0.0000 | ms/batch 396.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 2900/3236 batches | lr 0.0000 | ms/batch 396.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 3000/3236 batches | lr 0.0000 | ms/batch 396.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 3100/3236 batches | lr 0.0000 | ms/batch 397.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   8 | 3200/3236 batches | lr 0.0000 | ms/batch 396.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   8 | time: 1331.85s | valid loss/mse 0.1770 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch   9 | 100/3236 batches | lr 0.0000 | ms/batch 400.32 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 200/3236 batches | lr 0.0000 | ms/batch 396.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 300/3236 batches | lr 0.0000 | ms/batch 396.83 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 400/3236 batches | lr 0.0000 | ms/batch 396.93 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 500/3236 batches | lr 0.0000 | ms/batch 396.79 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 600/3236 batches | lr 0.0000 | ms/batch 396.58 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 700/3236 batches | lr 0.0000 | ms/batch 396.55 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 800/3236 batches | lr 0.0000 | ms/batch 396.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 900/3236 batches | lr 0.0000 | ms/batch 397.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1000/3236 batches | lr 0.0000 | ms/batch 397.01 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1100/3236 batches | lr 0.0000 | ms/batch 397.17 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1200/3236 batches | lr 0.0000 | ms/batch 396.83 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1300/3236 batches | lr 0.0000 | ms/batch 396.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1400/3236 batches | lr 0.0000 | ms/batch 397.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1500/3236 batches | lr 0.0000 | ms/batch 397.14 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1600/3236 batches | lr 0.0000 | ms/batch 396.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1700/3236 batches | lr 0.0000 | ms/batch 396.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1800/3236 batches | lr 0.0000 | ms/batch 397.16 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 1900/3236 batches | lr 0.0000 | ms/batch 396.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2000/3236 batches | lr 0.0000 | ms/batch 396.39 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2100/3236 batches | lr 0.0000 | ms/batch 395.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2200/3236 batches | lr 0.0000 | ms/batch 395.94 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2300/3236 batches | lr 0.0000 | ms/batch 396.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2400/3236 batches | lr 0.0000 | ms/batch 396.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2500/3236 batches | lr 0.0000 | ms/batch 396.51 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2600/3236 batches | lr 0.0000 | ms/batch 397.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2700/3236 batches | lr 0.0000 | ms/batch 398.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2800/3236 batches | lr 0.0000 | ms/batch 397.88 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 2900/3236 batches | lr 0.0000 | ms/batch 398.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 3000/3236 batches | lr 0.0000 | ms/batch 398.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 3100/3236 batches | lr 0.0000 | ms/batch 398.58 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch   9 | 3200/3236 batches | lr 0.0000 | ms/batch 398.39 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch   9 | time: 1336.03s | valid loss/mse 0.1775 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch  10 | 100/3236 batches | lr 0.0000 | ms/batch 402.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 200/3236 batches | lr 0.0000 | ms/batch 399.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 300/3236 batches | lr 0.0000 | ms/batch 398.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 400/3236 batches | lr 0.0000 | ms/batch 398.76 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 500/3236 batches | lr 0.0000 | ms/batch 398.86 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 600/3236 batches | lr 0.0000 | ms/batch 397.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 700/3236 batches | lr 0.0000 | ms/batch 397.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 800/3236 batches | lr 0.0000 | ms/batch 398.61 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 900/3236 batches | lr 0.0000 | ms/batch 399.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1000/3236 batches | lr 0.0000 | ms/batch 399.60 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1100/3236 batches | lr 0.0000 | ms/batch 398.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1200/3236 batches | lr 0.0000 | ms/batch 399.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1300/3236 batches | lr 0.0000 | ms/batch 399.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1400/3236 batches | lr 0.0000 | ms/batch 399.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1500/3236 batches | lr 0.0000 | ms/batch 399.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1600/3236 batches | lr 0.0000 | ms/batch 399.80 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1700/3236 batches | lr 0.0000 | ms/batch 399.53 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1800/3236 batches | lr 0.0000 | ms/batch 399.38 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 1900/3236 batches | lr 0.0000 | ms/batch 399.83 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2000/3236 batches | lr 0.0000 | ms/batch 399.48 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2100/3236 batches | lr 0.0000 | ms/batch 399.51 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2200/3236 batches | lr 0.0000 | ms/batch 399.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2300/3236 batches | lr 0.0000 | ms/batch 399.87 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2400/3236 batches | lr 0.0000 | ms/batch 399.67 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2500/3236 batches | lr 0.0000 | ms/batch 399.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2600/3236 batches | lr 0.0000 | ms/batch 399.70 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2700/3236 batches | lr 0.0000 | ms/batch 399.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2800/3236 batches | lr 0.0000 | ms/batch 399.12 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 2900/3236 batches | lr 0.0000 | ms/batch 399.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 3000/3236 batches | lr 0.0000 | ms/batch 399.13 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 3100/3236 batches | lr 0.0000 | ms/batch 399.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  10 | 3200/3236 batches | lr 0.0000 | ms/batch 398.97 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch  10 | time: 1343.14s | valid loss/mse 0.1766 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch  11 | 100/3236 batches | lr 0.0000 | ms/batch 403.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 200/3236 batches | lr 0.0000 | ms/batch 399.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 300/3236 batches | lr 0.0000 | ms/batch 399.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 400/3236 batches | lr 0.0000 | ms/batch 400.05 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 500/3236 batches | lr 0.0000 | ms/batch 400.36 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 600/3236 batches | lr 0.0000 | ms/batch 399.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 700/3236 batches | lr 0.0000 | ms/batch 399.71 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 800/3236 batches | lr 0.0000 | ms/batch 399.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 900/3236 batches | lr 0.0000 | ms/batch 399.93 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1000/3236 batches | lr 0.0000 | ms/batch 399.52 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1100/3236 batches | lr 0.0000 | ms/batch 399.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1200/3236 batches | lr 0.0000 | ms/batch 399.74 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1300/3236 batches | lr 0.0000 | ms/batch 399.73 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1400/3236 batches | lr 0.0000 | ms/batch 399.75 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1500/3236 batches | lr 0.0000 | ms/batch 400.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1600/3236 batches | lr 0.0000 | ms/batch 400.20 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1700/3236 batches | lr 0.0000 | ms/batch 400.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1800/3236 batches | lr 0.0000 | ms/batch 400.65 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 1900/3236 batches | lr 0.0000 | ms/batch 401.15 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2000/3236 batches | lr 0.0000 | ms/batch 401.58 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2100/3236 batches | lr 0.0000 | ms/batch 401.66 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2200/3236 batches | lr 0.0000 | ms/batch 401.42 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2300/3236 batches | lr 0.0000 | ms/batch 401.74 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2400/3236 batches | lr 0.0000 | ms/batch 401.65 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2500/3236 batches | lr 0.0000 | ms/batch 401.98 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2600/3236 batches | lr 0.0000 | ms/batch 401.51 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2700/3236 batches | lr 0.0000 | ms/batch 401.09 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2800/3236 batches | lr 0.0000 | ms/batch 401.57 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 2900/3236 batches | lr 0.0000 | ms/batch 401.43 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 3000/3236 batches | lr 0.0000 | ms/batch 401.53 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 3100/3236 batches | lr 0.0000 | ms/batch 401.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  11 | 3200/3236 batches | lr 0.0000 | ms/batch 401.51 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch  11 | time: 1348.45s | valid loss/mse 0.1773 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | epoch  12 | 100/3236 batches | lr 0.0000 | ms/batch 405.63 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 200/3236 batches | lr 0.0000 | ms/batch 401.64 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 300/3236 batches | lr 0.0000 | ms/batch 401.35 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 400/3236 batches | lr 0.0000 | ms/batch 401.22 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 500/3236 batches | lr 0.0000 | ms/batch 401.40 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 600/3236 batches | lr 0.0000 | ms/batch 401.10 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 700/3236 batches | lr 0.0000 | ms/batch 401.21 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 800/3236 batches | lr 0.0000 | ms/batch 401.23 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 900/3236 batches | lr 0.0000 | ms/batch 401.31 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1000/3236 batches | lr 0.0000 | ms/batch 401.39 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1100/3236 batches | lr 0.0000 | ms/batch 401.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1200/3236 batches | lr 0.0000 | ms/batch 401.55 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1300/3236 batches | lr 0.0000 | ms/batch 401.78 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1400/3236 batches | lr 0.0000 | ms/batch 402.46 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1500/3236 batches | lr 0.0000 | ms/batch 402.84 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1600/3236 batches | lr 0.0000 | ms/batch 402.53 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1700/3236 batches | lr 0.0000 | ms/batch 402.07 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1800/3236 batches | lr 0.0000 | ms/batch 401.79 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 1900/3236 batches | lr 0.0000 | ms/batch 402.54 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2000/3236 batches | lr 0.0000 | ms/batch 402.18 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2100/3236 batches | lr 0.0000 | ms/batch 402.45 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2200/3236 batches | lr 0.0000 | ms/batch 402.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2300/3236 batches | lr 0.0000 | ms/batch 401.96 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2400/3236 batches | lr 0.0000 | ms/batch 402.06 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2500/3236 batches | lr 0.0000 | ms/batch 402.03 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2600/3236 batches | lr 0.0000 | ms/batch 401.89 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2700/3236 batches | lr 0.0000 | ms/batch 401.62 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2800/3236 batches | lr 0.0000 | ms/batch 401.71 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 2900/3236 batches | lr 0.0000 | ms/batch 401.91 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 3000/3236 batches | lr 0.0000 | ms/batch 402.50 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 3100/3236 batches | lr 0.0000 | ms/batch 402.48 | loss  0.17 | mse  0.17 |
+scGPT - INFO - | epoch  12 | 3200/3236 batches | lr 0.0000 | ms/batch 402.27 | loss  0.17 | mse  0.17 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - | end of epoch  12 | time: 1352.56s | valid loss/mse 0.1766 |
+scGPT - INFO - -----------------------------------------------------------------------------------------
+scGPT - INFO - Early stop at epoch 12
+---Creating test_res
+test_res saved successfully----
+Split5 computation completed

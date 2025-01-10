@@ -1,0 +1,93 @@
+---Environment setup completed---
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_xucao2023.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/XuCao2023/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/XuCao2023/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/XuCao2023/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/XuCao2023/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/XuCao2023/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_shifrutmarson2018.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/ShifrutMarson2018/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/ShifrutMarson2018/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/ShifrutMarson2018/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/ShifrutMarson2018/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/ShifrutMarson2018/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_papalexisatija2021_eccite_arrayed_rna.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_arrayed_RNA/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_arrayed_RNA/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_arrayed_RNA/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_arrayed_RNA/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_arrayed_RNA/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_papalexisatija2021_eccite_rna.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_RNA/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_RNA/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_RNA/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_RNA/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/PapalexiSatija2021_eccite_RNA/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5

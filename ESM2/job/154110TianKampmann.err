@@ -1,0 +1,1160 @@
+Loading compilers/gcc/12.2.0
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload compilers/gcc" first.
+cmake-3.27.0 loaded successful
+Found local copy...
+These perturbations are not in the GO graph and their perturbation can thus not be predicted
+[]
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at ./All_data/tiankampmann2021_crispra/splits/tiankampmann2021_crispra_simulation_1_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:24
+Done!
+Creating dataloaders....
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.18.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/Gears_change/gears_esm/wandb/run-20240924_122039-5x2pz82m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gears_esm_TianKampmann2021_CRISPRa_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/New_gears
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/New_gears/runs/5x2pz82m
+Start Training...
+Epoch 1 Step 1 Train Loss: 1.2060
+Epoch 1 Step 51 Train Loss: 0.5800
+Epoch 1 Step 101 Train Loss: 0.5921
+Epoch 1 Step 151 Train Loss: 0.5363
+Epoch 1: Train Overall MSE: 0.0029 Validation Overall MSE: 0.0024. 
+Train Top 20 DE MSE: 0.0350 Validation Top 20 DE MSE: 0.0330. 
+Epoch 2 Step 1 Train Loss: 0.5372
+Epoch 2 Step 51 Train Loss: 0.5571
+Epoch 2 Step 101 Train Loss: 0.5664
+Epoch 2 Step 151 Train Loss: 0.5493
+Epoch 2: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0025. 
+Train Top 20 DE MSE: 0.0215 Validation Top 20 DE MSE: 0.0414. 
+Epoch 3 Step 1 Train Loss: 0.5028
+Epoch 3 Step 51 Train Loss: 0.5392
+Epoch 3 Step 101 Train Loss: 0.5386
+Epoch 3 Step 151 Train Loss: 0.5900
+Epoch 3: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0181 Validation Top 20 DE MSE: 0.0349. 
+Epoch 4 Step 1 Train Loss: 0.5647
+Epoch 4 Step 51 Train Loss: 0.5186
+Epoch 4 Step 101 Train Loss: 0.5087
+Epoch 4 Step 151 Train Loss: 0.5651
+Epoch 4: Train Overall MSE: 0.0023 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0183 Validation Top 20 DE MSE: 0.0362. 
+Epoch 5 Step 1 Train Loss: 0.5226
+Epoch 5 Step 51 Train Loss: 0.5236
+Epoch 5 Step 101 Train Loss: 0.5281
+Epoch 5 Step 151 Train Loss: 0.5444
+Epoch 5: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0156 Validation Top 20 DE MSE: 0.0350. 
+Epoch 6 Step 1 Train Loss: 0.5595
+Epoch 6 Step 51 Train Loss: 0.5540
+Epoch 6 Step 101 Train Loss: 0.5577
+Epoch 6 Step 151 Train Loss: 0.5658
+Epoch 6: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0155 Validation Top 20 DE MSE: 0.0344. 
+Epoch 7 Step 1 Train Loss: 0.5047
+Epoch 7 Step 51 Train Loss: 0.5484
+Epoch 7 Step 101 Train Loss: 0.5548
+Epoch 7 Step 151 Train Loss: 0.5580
+Epoch 7: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0030. 
+Train Top 20 DE MSE: 0.0158 Validation Top 20 DE MSE: 0.0344. 
+Epoch 8 Step 1 Train Loss: 0.5625
+Epoch 8 Step 51 Train Loss: 0.5798
+Epoch 8 Step 101 Train Loss: 0.5118
+Epoch 8 Step 151 Train Loss: 0.5902
+Epoch 8: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0030. 
+Train Top 20 DE MSE: 0.0155 Validation Top 20 DE MSE: 0.0341. 
+Epoch 9 Step 1 Train Loss: 0.5099
+Epoch 9 Step 51 Train Loss: 0.5257
+Epoch 9 Step 101 Train Loss: 0.5492
+Epoch 9 Step 151 Train Loss: 0.5798
+Epoch 9: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0029. 
+Train Top 20 DE MSE: 0.0158 Validation Top 20 DE MSE: 0.0346. 
+Epoch 10 Step 1 Train Loss: 0.5307
+Epoch 10 Step 51 Train Loss: 0.5601
+Epoch 10 Step 101 Train Loss: 0.5055
+Epoch 10 Step 151 Train Loss: 0.5251
+Epoch 10: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0029. 
+Train Top 20 DE MSE: 0.0162 Validation Top 20 DE MSE: 0.0342. 
+Epoch 11 Step 1 Train Loss: 0.4965
+Epoch 11 Step 51 Train Loss: 0.5567
+Epoch 11 Step 101 Train Loss: 0.5330
+Epoch 11 Step 151 Train Loss: 0.5213
+Epoch 11: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0029. 
+Train Top 20 DE MSE: 0.0157 Validation Top 20 DE MSE: 0.0339. 
+Epoch 12 Step 1 Train Loss: 0.5181
+Epoch 12 Step 51 Train Loss: 0.5281
+Epoch 12 Step 101 Train Loss: 0.5421
+Epoch 12 Step 151 Train Loss: 0.5343
+Epoch 12: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0152 Validation Top 20 DE MSE: 0.0347. 
+Epoch 13 Step 1 Train Loss: 0.5536
+Epoch 13 Step 51 Train Loss: 0.5084
+Epoch 13 Step 101 Train Loss: 0.5423
+Epoch 13 Step 151 Train Loss: 0.5471
+Epoch 13: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0030. 
+Train Top 20 DE MSE: 0.0159 Validation Top 20 DE MSE: 0.0342. 
+Epoch 14 Step 1 Train Loss: 0.5383
+Epoch 14 Step 51 Train Loss: 0.5321
+Epoch 14 Step 101 Train Loss: 0.5683
+Epoch 14 Step 151 Train Loss: 0.5345
+Epoch 14: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0030. 
+Train Top 20 DE MSE: 0.0158 Validation Top 20 DE MSE: 0.0346. 
+Epoch 15 Step 1 Train Loss: 0.5471
+Epoch 15 Step 51 Train Loss: 0.5646
+Epoch 15 Step 101 Train Loss: 0.5039
+Epoch 15 Step 151 Train Loss: 0.5740
+Epoch 15: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0159 Validation Top 20 DE MSE: 0.0347. 
+Done!
+Start Testing...
+Best performing model: Test Top 20 DE MSE: 0.0303
+Start doing subgroup analysis for simulation split...
+test_combo_seen0_mse: nan
+test_combo_seen0_pearson: nan
+test_combo_seen0_mse_de: nan
+test_combo_seen0_pearson_de: nan
+test_combo_seen1_mse: nan
+test_combo_seen1_pearson: nan
+test_combo_seen1_mse_de: nan
+test_combo_seen1_pearson_de: nan
+test_combo_seen2_mse: nan
+test_combo_seen2_pearson: nan
+test_combo_seen2_mse_de: nan
+test_combo_seen2_pearson_de: nan
+test_unseen_single_mse: 0.001933568
+test_unseen_single_pearson: 0.9949851044758523
+test_unseen_single_mse_de: 0.030315435
+test_unseen_single_pearson_de: 0.9793695885949152
+test_combo_seen0_pearson_delta: nan
+test_combo_seen0_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen0_frac_sigma_below_1_non_dropout: nan
+test_combo_seen0_mse_top20_de_non_dropout: nan
+test_combo_seen1_pearson_delta: nan
+test_combo_seen1_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen1_frac_sigma_below_1_non_dropout: nan
+test_combo_seen1_mse_top20_de_non_dropout: nan
+test_combo_seen2_pearson_delta: nan
+test_combo_seen2_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen2_frac_sigma_below_1_non_dropout: nan
+test_combo_seen2_mse_top20_de_non_dropout: nan
+test_unseen_single_pearson_delta: 0.24702365981764526
+test_unseen_single_frac_opposite_direction_top20_non_dropout: 0.2708333333333333
+test_unseen_single_frac_sigma_below_1_non_dropout: 0.9708333333333332
+test_unseen_single_mse_top20_de_non_dropout: 0.03275375
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.016 MB uploadedwandb: | 0.001 MB of 0.019 MB uploadedwandb: / 0.010 MB of 0.019 MB uploadedwandb: - 0.016 MB of 0.019 MB uploadedwandb: \ 0.016 MB of 0.019 MB uploadedwandb: | 0.019 MB of 0.019 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                                                  test_de_mse ▁
+wandb:                                              test_de_pearson ▁
+wandb:               test_frac_opposite_direction_top20_non_dropout ▁
+wandb:                          test_frac_sigma_below_1_non_dropout ▁
+wandb:                                                     test_mse ▁
+wandb:                                test_mse_top20_de_non_dropout ▁
+wandb:                                                 test_pearson ▁
+wandb:                                           test_pearson_delta ▁
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout ▁
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout ▁
+wandb:                                       test_unseen_single_mse ▁
+wandb:                                    test_unseen_single_mse_de ▁
+wandb:                  test_unseen_single_mse_top20_de_non_dropout ▁
+wandb:                                   test_unseen_single_pearson ▁
+wandb:                                test_unseen_single_pearson_de ▁
+wandb:                             test_unseen_single_pearson_delta ▁
+wandb:                                                 train_de_mse █▃▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:                                             train_de_pearson ▁▅▇▇▇█████▇████
+wandb:                                                    train_mse █▃▄▁▂▃▄▄▃▄▄▂▄▄▃
+wandb:                                                train_pearson ▁▅▆█▇▇▆▆▇▆▆▇▆▆▇
+wandb:                                                training_loss █▅▅█▇▃▆▅▅▆▅▄▃▃▄▄▄▄▃▂▃▄▂▄▄▆▄▃▅▅▂▃▄▄▄▁▃▃▅▂
+wandb:                                                   val_de_mse ▁█▃▄▃▂▂▂▂▂▂▂▂▂▂
+wandb:                                               val_de_pearson █▃█▆▄▃▁▂▂▂▃▃▂▃▃
+wandb:                                                      val_mse ▁▂▆▆▆▆██▇▇▇▆██▆
+wandb:                                                  val_pearson █▇▃▃▃▃▁▁▂▂▂▃▁▂▃
+wandb: 
+wandb: Run summary:
+wandb:   test_combo_seen0_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen0_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen0_mse nan
+wandb:                                      test_combo_seen0_mse_de nan
+wandb:                    test_combo_seen0_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen0_pearson nan
+wandb:                                  test_combo_seen0_pearson_de nan
+wandb:                               test_combo_seen0_pearson_delta nan
+wandb:   test_combo_seen1_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen1_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen1_mse nan
+wandb:                                      test_combo_seen1_mse_de nan
+wandb:                    test_combo_seen1_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen1_pearson nan
+wandb:                                  test_combo_seen1_pearson_de nan
+wandb:                               test_combo_seen1_pearson_delta nan
+wandb:   test_combo_seen2_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen2_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen2_mse nan
+wandb:                                      test_combo_seen2_mse_de nan
+wandb:                    test_combo_seen2_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen2_pearson nan
+wandb:                                  test_combo_seen2_pearson_de nan
+wandb:                               test_combo_seen2_pearson_delta nan
+wandb:                                                  test_de_mse 0.03032
+wandb:                                              test_de_pearson 0.97937
+wandb:               test_frac_opposite_direction_top20_non_dropout 0.27083
+wandb:                          test_frac_sigma_below_1_non_dropout 0.97083
+wandb:                                                     test_mse 0.00193
+wandb:                                test_mse_top20_de_non_dropout 0.03275
+wandb:                                                 test_pearson 0.99499
+wandb:                                           test_pearson_delta 0.24702
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout 0.27083
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout 0.97083
+wandb:                                       test_unseen_single_mse 0.00193
+wandb:                                    test_unseen_single_mse_de 0.03032
+wandb:                  test_unseen_single_mse_top20_de_non_dropout 0.03275
+wandb:                                   test_unseen_single_pearson 0.99499
+wandb:                                test_unseen_single_pearson_de 0.97937
+wandb:                             test_unseen_single_pearson_delta 0.24702
+wandb:                                                 train_de_mse 0.01588
+wandb:                                             train_de_pearson 0.95453
+wandb:                                                    train_mse 0.00245
+wandb:                                                train_pearson 0.99401
+wandb:                                                training_loss 0.59162
+wandb:                                                   val_de_mse 0.03469
+wandb:                                               val_de_pearson 0.88305
+wandb:                                                      val_mse 0.00284
+wandb:                                                  val_pearson 0.99279
+wandb: 
+wandb: 🚀 View run gears_esm_TianKampmann2021_CRISPRa_split1 at: https://wandb.ai/zhoumin1130/New_gears/runs/5x2pz82m
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/New_gears
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240924_122039-5x2pz82m/logs
+Creating new splits....
+Saving new splits at ./All_data/tiankampmann2021_crispra/splits/tiankampmann2021_crispra_simulation_2_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:24
+Done!
+Creating dataloaders....
+Done!
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.18.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/Gears_change/gears_esm/wandb/run-20240924_123202-nwrzn4xe
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gears_esm_TianKampmann2021_CRISPRa_split2
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/New_gears
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/New_gears/runs/nwrzn4xe
+Start Training...
+Epoch 1 Step 1 Train Loss: 1.0572
+Epoch 1 Step 51 Train Loss: 0.5779
+Epoch 1 Step 101 Train Loss: 0.6147
+Epoch 1 Step 151 Train Loss: 0.5578
+Epoch 1: Train Overall MSE: 0.0030 Validation Overall MSE: 0.0024. 
+Train Top 20 DE MSE: 0.0221 Validation Top 20 DE MSE: 0.0190. 
+Epoch 2 Step 1 Train Loss: 0.5894
+Epoch 2 Step 51 Train Loss: 0.5256
+Epoch 2 Step 101 Train Loss: 0.6044
+Epoch 2 Step 151 Train Loss: 0.5114
+Epoch 2: Train Overall MSE: 0.0020 Validation Overall MSE: 0.0019. 
+Train Top 20 DE MSE: 0.0208 Validation Top 20 DE MSE: 0.0209. 
+Epoch 3 Step 1 Train Loss: 0.6491
+Epoch 3 Step 51 Train Loss: 0.5474
+Epoch 3 Step 101 Train Loss: 0.5741
+Epoch 3 Step 151 Train Loss: 0.5311
+Epoch 3: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0021. 
+Train Top 20 DE MSE: 0.0169 Validation Top 20 DE MSE: 0.0223. 
+Epoch 4 Step 1 Train Loss: 0.4777
+Epoch 4 Step 51 Train Loss: 0.5602
+Epoch 4 Step 101 Train Loss: 0.5559
+Epoch 4 Step 151 Train Loss: 0.6288
+Epoch 4: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0021. 
+Train Top 20 DE MSE: 0.0149 Validation Top 20 DE MSE: 0.0196. 
+Epoch 5 Step 1 Train Loss: 0.5252
+Epoch 5 Step 51 Train Loss: 0.5627
+Epoch 5 Step 101 Train Loss: 0.5067
+Epoch 5 Step 151 Train Loss: 0.5154
+Epoch 5: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0021. 
+Train Top 20 DE MSE: 0.0140 Validation Top 20 DE MSE: 0.0200. 
+Epoch 6 Step 1 Train Loss: 0.5700
+Epoch 6 Step 51 Train Loss: 0.5461
+Epoch 6 Step 101 Train Loss: 0.5579
+Epoch 6 Step 151 Train Loss: 0.5635
+Epoch 6: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0138 Validation Top 20 DE MSE: 0.0214. 
+Epoch 7 Step 1 Train Loss: 0.5981
+Epoch 7 Step 51 Train Loss: 0.5671
+Epoch 7 Step 101 Train Loss: 0.5333
+Epoch 7 Step 151 Train Loss: 0.5445
+Epoch 7: Train Overall MSE: 0.0023 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0133 Validation Top 20 DE MSE: 0.0199. 
+Epoch 8 Step 1 Train Loss: 0.5062
+Epoch 8 Step 51 Train Loss: 0.5361
+Epoch 8 Step 101 Train Loss: 0.5828
+Epoch 8 Step 151 Train Loss: 0.5305
+Epoch 8: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0138 Validation Top 20 DE MSE: 0.0206. 
+Epoch 9 Step 1 Train Loss: 0.5429
+Epoch 9 Step 51 Train Loss: 0.5553
+Epoch 9 Step 101 Train Loss: 0.5269
+Epoch 9 Step 151 Train Loss: 0.5306
+Epoch 9: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0021. 
+Train Top 20 DE MSE: 0.0132 Validation Top 20 DE MSE: 0.0197. 
+Epoch 10 Step 1 Train Loss: 0.5423
+Epoch 10 Step 51 Train Loss: 0.5655
+Epoch 10 Step 101 Train Loss: 0.5582
+Epoch 10 Step 151 Train Loss: 0.5135
+Epoch 10: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0133 Validation Top 20 DE MSE: 0.0204. 
+Epoch 11 Step 1 Train Loss: 0.5340
+Epoch 11 Step 51 Train Loss: 0.5178
+Epoch 11 Step 101 Train Loss: 0.5495
+Epoch 11 Step 151 Train Loss: 0.5609
+Epoch 11: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0135 Validation Top 20 DE MSE: 0.0203. 
+Epoch 12 Step 1 Train Loss: 0.5607
+Epoch 12 Step 51 Train Loss: 0.5274
+Epoch 12 Step 101 Train Loss: 0.5372
+Epoch 12 Step 151 Train Loss: 0.5463
+Epoch 12: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0134 Validation Top 20 DE MSE: 0.0204. 
+Epoch 13 Step 1 Train Loss: 0.5715
+Epoch 13 Step 51 Train Loss: 0.5063
+Epoch 13 Step 101 Train Loss: 0.5478
+Epoch 13 Step 151 Train Loss: 0.5808
+Epoch 13: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0136 Validation Top 20 DE MSE: 0.0207. 
+Epoch 14 Step 1 Train Loss: 0.5987
+Epoch 14 Step 51 Train Loss: 0.5932
+Epoch 14 Step 101 Train Loss: 0.5859
+Epoch 14 Step 151 Train Loss: 0.5477
+Epoch 14: Train Overall MSE: 0.0023 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0137 Validation Top 20 DE MSE: 0.0214. 
+Epoch 15 Step 1 Train Loss: 0.5306
+Epoch 15 Step 51 Train Loss: 0.5849
+Epoch 15 Step 101 Train Loss: 0.5028
+Epoch 15 Step 151 Train Loss: 0.5654
+Epoch 15: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0135 Validation Top 20 DE MSE: 0.0206. 
+Done!
+Start Testing...
+Best performing model: Test Top 20 DE MSE: 0.1342
+Start doing subgroup analysis for simulation split...
+test_combo_seen0_mse: nan
+test_combo_seen0_pearson: nan
+test_combo_seen0_mse_de: nan
+test_combo_seen0_pearson_de: nan
+test_combo_seen1_mse: nan
+test_combo_seen1_pearson: nan
+test_combo_seen1_mse_de: nan
+test_combo_seen1_pearson_de: nan
+test_combo_seen2_mse: nan
+test_combo_seen2_pearson: nan
+test_combo_seen2_mse_de: nan
+test_combo_seen2_pearson_de: nan
+test_unseen_single_mse: 0.0038317153
+test_unseen_single_pearson: 0.9898864014098692
+test_unseen_single_mse_de: 0.13416894
+test_unseen_single_pearson_de: 0.945175219884054
+test_combo_seen0_pearson_delta: nan
+test_combo_seen0_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen0_frac_sigma_below_1_non_dropout: nan
+test_combo_seen0_mse_top20_de_non_dropout: nan
+test_combo_seen1_pearson_delta: nan
+test_combo_seen1_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen1_frac_sigma_below_1_non_dropout: nan
+test_combo_seen1_mse_top20_de_non_dropout: nan
+test_combo_seen2_pearson_delta: nan
+test_combo_seen2_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen2_frac_sigma_below_1_non_dropout: nan
+test_combo_seen2_mse_top20_de_non_dropout: nan
+test_unseen_single_pearson_delta: 0.2151862959988405
+test_unseen_single_frac_opposite_direction_top20_non_dropout: 0.28541666666666665
+test_unseen_single_frac_sigma_below_1_non_dropout: 0.9583333333333334
+test_unseen_single_mse_top20_de_non_dropout: 0.13502301
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.019 MB uploadedwandb: | 0.015 MB of 0.019 MB uploadedwandb: / 0.019 MB of 0.019 MB uploadedwandb: - 0.019 MB of 0.019 MB uploadedwandb: \ 0.019 MB of 0.019 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                                                  test_de_mse ▁
+wandb:                                              test_de_pearson ▁
+wandb:               test_frac_opposite_direction_top20_non_dropout ▁
+wandb:                          test_frac_sigma_below_1_non_dropout ▁
+wandb:                                                     test_mse ▁
+wandb:                                test_mse_top20_de_non_dropout ▁
+wandb:                                                 test_pearson ▁
+wandb:                                           test_pearson_delta ▁
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout ▁
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout ▁
+wandb:                                       test_unseen_single_mse ▁
+wandb:                                    test_unseen_single_mse_de ▁
+wandb:                  test_unseen_single_mse_top20_de_non_dropout ▁
+wandb:                                   test_unseen_single_pearson ▁
+wandb:                                test_unseen_single_pearson_de ▁
+wandb:                             test_unseen_single_pearson_delta ▁
+wandb:                                                 train_de_mse █▇▄▂▂▁▁▁▁▁▁▁▁▁▁
+wandb:                                             train_de_pearson ▁▄▅▇▇▇█████████
+wandb:                                                    train_mse █▁▇▄▄▄▃▄▄▄▄▄▄▃▅
+wandb:                                                train_pearson ▁█▃▆▆▆▆▆▆▆▆▆▆▇▅
+wandb:                                                training_loss █▃▅▃▃▂▃▁▂▂▂▂▂▂▂▃▄▂▂▂▄▂▂▁▁▁▂▂▃▁▂▂▂▃▃▂▃▂▂▁
+wandb:                                                   val_de_mse ▁▅█▂▃▆▃▄▂▄▄▄▅▆▄
+wandb:                                               val_de_pearson ▆█▆▁▄▄▅▅▅▅▆▅▅▅▆
+wandb:                                                      val_mse █▁▃▃▃▂▂▂▃▂▂▂▂▁▂
+wandb:                                                  val_pearson ▁█▆▆▆▆▆▇▆▇▆▇▇▇▆
+wandb: 
+wandb: Run summary:
+wandb:   test_combo_seen0_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen0_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen0_mse nan
+wandb:                                      test_combo_seen0_mse_de nan
+wandb:                    test_combo_seen0_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen0_pearson nan
+wandb:                                  test_combo_seen0_pearson_de nan
+wandb:                               test_combo_seen0_pearson_delta nan
+wandb:   test_combo_seen1_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen1_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen1_mse nan
+wandb:                                      test_combo_seen1_mse_de nan
+wandb:                    test_combo_seen1_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen1_pearson nan
+wandb:                                  test_combo_seen1_pearson_de nan
+wandb:                               test_combo_seen1_pearson_delta nan
+wandb:   test_combo_seen2_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen2_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen2_mse nan
+wandb:                                      test_combo_seen2_mse_de nan
+wandb:                    test_combo_seen2_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen2_pearson nan
+wandb:                                  test_combo_seen2_pearson_de nan
+wandb:                               test_combo_seen2_pearson_delta nan
+wandb:                                                  test_de_mse 0.13417
+wandb:                                              test_de_pearson 0.94518
+wandb:               test_frac_opposite_direction_top20_non_dropout 0.28542
+wandb:                          test_frac_sigma_below_1_non_dropout 0.95833
+wandb:                                                     test_mse 0.00383
+wandb:                                test_mse_top20_de_non_dropout 0.13502
+wandb:                                                 test_pearson 0.98989
+wandb:                                           test_pearson_delta 0.21519
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout 0.28542
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout 0.95833
+wandb:                                       test_unseen_single_mse 0.00383
+wandb:                                    test_unseen_single_mse_de 0.13417
+wandb:                  test_unseen_single_mse_top20_de_non_dropout 0.13502
+wandb:                                   test_unseen_single_pearson 0.98989
+wandb:                                test_unseen_single_pearson_de 0.94518
+wandb:                             test_unseen_single_pearson_delta 0.21519
+wandb:                                                 train_de_mse 0.01352
+wandb:                                             train_de_pearson 0.9476
+wandb:                                                    train_mse 0.00253
+wandb:                                                train_pearson 0.99393
+wandb:                                                training_loss 0.56207
+wandb:                                                   val_de_mse 0.0206
+wandb:                                               val_de_pearson 0.98036
+wandb:                                                      val_mse 0.00203
+wandb:                                                  val_pearson 0.99468
+wandb: 
+wandb: 🚀 View run gears_esm_TianKampmann2021_CRISPRa_split2 at: https://wandb.ai/zhoumin1130/New_gears/runs/nwrzn4xe
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/New_gears
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240924_123202-nwrzn4xe/logs
+Creating new splits....
+Saving new splits at ./All_data/tiankampmann2021_crispra/splits/tiankampmann2021_crispra_simulation_3_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:24
+Done!
+Creating dataloaders....
+Done!
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.18.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/Gears_change/gears_esm/wandb/run-20240924_124305-855hkbsk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gears_esm_TianKampmann2021_CRISPRa_split3
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/New_gears
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/New_gears/runs/855hkbsk
+Start Training...
+Epoch 1 Step 1 Train Loss: 1.1103
+Epoch 1 Step 51 Train Loss: 0.6258
+Epoch 1 Step 101 Train Loss: 0.5666
+Epoch 1 Step 151 Train Loss: 0.5812
+Epoch 1: Train Overall MSE: 0.0042 Validation Overall MSE: 0.0025. 
+Train Top 20 DE MSE: 0.0272 Validation Top 20 DE MSE: 0.0469. 
+Epoch 2 Step 1 Train Loss: 0.5902
+Epoch 2 Step 51 Train Loss: 0.5398
+Epoch 2 Step 101 Train Loss: 0.6048
+Epoch 2 Step 151 Train Loss: 0.5427
+Epoch 2: Train Overall MSE: 0.0030 Validation Overall MSE: 0.0030. 
+Train Top 20 DE MSE: 0.0196 Validation Top 20 DE MSE: 0.0385. 
+Epoch 3 Step 1 Train Loss: 0.5431
+Epoch 3 Step 51 Train Loss: 0.5747
+Epoch 3 Step 101 Train Loss: 0.5361
+Epoch 3 Step 151 Train Loss: 0.5336
+Epoch 3: Train Overall MSE: 0.0030 Validation Overall MSE: 0.0032. 
+Train Top 20 DE MSE: 0.0187 Validation Top 20 DE MSE: 0.0283. 
+Epoch 4 Step 1 Train Loss: 0.5999
+Epoch 4 Step 51 Train Loss: 0.5105
+Epoch 4 Step 101 Train Loss: 0.5565
+Epoch 4 Step 151 Train Loss: 0.5376
+Epoch 4: Train Overall MSE: 0.0024 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0152 Validation Top 20 DE MSE: 0.0361. 
+Epoch 5 Step 1 Train Loss: 0.6042
+Epoch 5 Step 51 Train Loss: 0.5330
+Epoch 5 Step 101 Train Loss: 0.5727
+Epoch 5 Step 151 Train Loss: 0.5586
+Epoch 5: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0027. 
+Train Top 20 DE MSE: 0.0158 Validation Top 20 DE MSE: 0.0348. 
+Epoch 6 Step 1 Train Loss: 0.5276
+Epoch 6 Step 51 Train Loss: 0.5790
+Epoch 6 Step 101 Train Loss: 0.5178
+Epoch 6 Step 151 Train Loss: 0.5511
+Epoch 6: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0027. 
+Train Top 20 DE MSE: 0.0153 Validation Top 20 DE MSE: 0.0356. 
+Epoch 7 Step 1 Train Loss: 0.5365
+Epoch 7 Step 51 Train Loss: 0.5718
+Epoch 7 Step 101 Train Loss: 0.5442
+Epoch 7 Step 151 Train Loss: 0.5419
+Epoch 7: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0151 Validation Top 20 DE MSE: 0.0337. 
+Epoch 8 Step 1 Train Loss: 0.5452
+Epoch 8 Step 51 Train Loss: 0.5681
+Epoch 8 Step 101 Train Loss: 0.4983
+Epoch 8 Step 151 Train Loss: 0.4950
+Epoch 8: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0152 Validation Top 20 DE MSE: 0.0334. 
+Epoch 9 Step 1 Train Loss: 0.5443
+Epoch 9 Step 51 Train Loss: 0.5877
+Epoch 9 Step 101 Train Loss: 0.5638
+Epoch 9 Step 151 Train Loss: 0.5042
+Epoch 9: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0027. 
+Train Top 20 DE MSE: 0.0149 Validation Top 20 DE MSE: 0.0338. 
+Epoch 10 Step 1 Train Loss: 0.5335
+Epoch 10 Step 51 Train Loss: 0.5748
+Epoch 10 Step 101 Train Loss: 0.5119
+Epoch 10 Step 151 Train Loss: 0.5282
+Epoch 10: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0157 Validation Top 20 DE MSE: 0.0330. 
+Epoch 11 Step 1 Train Loss: 0.5319
+Epoch 11 Step 51 Train Loss: 0.5653
+Epoch 11 Step 101 Train Loss: 0.5425
+Epoch 11 Step 151 Train Loss: 0.5047
+Epoch 11: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0153 Validation Top 20 DE MSE: 0.0324. 
+Epoch 12 Step 1 Train Loss: 0.5270
+Epoch 12 Step 51 Train Loss: 0.5564
+Epoch 12 Step 101 Train Loss: 0.4834
+Epoch 12 Step 151 Train Loss: 0.5903
+Epoch 12: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0029. 
+Train Top 20 DE MSE: 0.0153 Validation Top 20 DE MSE: 0.0321. 
+Epoch 13 Step 1 Train Loss: 0.6557
+Epoch 13 Step 51 Train Loss: 0.5340
+Epoch 13 Step 101 Train Loss: 0.5087
+Epoch 13 Step 151 Train Loss: 0.5362
+Epoch 13: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0027. 
+Train Top 20 DE MSE: 0.0151 Validation Top 20 DE MSE: 0.0335. 
+Epoch 14 Step 1 Train Loss: 0.5962
+Epoch 14 Step 51 Train Loss: 0.5000
+Epoch 14 Step 101 Train Loss: 0.5624
+Epoch 14 Step 151 Train Loss: 0.5589
+Epoch 14: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0147 Validation Top 20 DE MSE: 0.0326. 
+Epoch 15 Step 1 Train Loss: 0.5365
+Epoch 15 Step 51 Train Loss: 0.5659
+Epoch 15 Step 101 Train Loss: 0.5717
+Epoch 15 Step 151 Train Loss: 0.5202
+Epoch 15: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0028. 
+Train Top 20 DE MSE: 0.0148 Validation Top 20 DE MSE: 0.0328. 
+Done!
+Start Testing...
+Best performing model: Test Top 20 DE MSE: 0.0309
+Start doing subgroup analysis for simulation split...
+test_combo_seen0_mse: nan
+test_combo_seen0_pearson: nan
+test_combo_seen0_mse_de: nan
+test_combo_seen0_pearson_de: nan
+test_combo_seen1_mse: nan
+test_combo_seen1_pearson: nan
+test_combo_seen1_mse_de: nan
+test_combo_seen1_pearson_de: nan
+test_combo_seen2_mse: nan
+test_combo_seen2_pearson: nan
+test_combo_seen2_mse_de: nan
+test_combo_seen2_pearson_de: nan
+test_unseen_single_mse: 0.002239654
+test_unseen_single_pearson: 0.9944410429410463
+test_unseen_single_mse_de: 0.030856254
+test_unseen_single_pearson_de: 0.9483197655816866
+test_combo_seen0_pearson_delta: nan
+test_combo_seen0_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen0_frac_sigma_below_1_non_dropout: nan
+test_combo_seen0_mse_top20_de_non_dropout: nan
+test_combo_seen1_pearson_delta: nan
+test_combo_seen1_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen1_frac_sigma_below_1_non_dropout: nan
+test_combo_seen1_mse_top20_de_non_dropout: nan
+test_combo_seen2_pearson_delta: nan
+test_combo_seen2_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen2_frac_sigma_below_1_non_dropout: nan
+test_combo_seen2_mse_top20_de_non_dropout: nan
+test_unseen_single_pearson_delta: 0.24423500803061296
+test_unseen_single_frac_opposite_direction_top20_non_dropout: 0.2791666666666667
+test_unseen_single_frac_sigma_below_1_non_dropout: 0.9541666666666666
+test_unseen_single_mse_top20_de_non_dropout: 0.032698628
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.019 MB uploadedwandb: | 0.003 MB of 0.019 MB uploadedwandb: / 0.012 MB of 0.019 MB uploadedwandb: - 0.012 MB of 0.019 MB uploadedwandb: \ 0.019 MB of 0.019 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                                                  test_de_mse ▁
+wandb:                                              test_de_pearson ▁
+wandb:               test_frac_opposite_direction_top20_non_dropout ▁
+wandb:                          test_frac_sigma_below_1_non_dropout ▁
+wandb:                                                     test_mse ▁
+wandb:                                test_mse_top20_de_non_dropout ▁
+wandb:                                                 test_pearson ▁
+wandb:                                           test_pearson_delta ▁
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout ▁
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout ▁
+wandb:                                       test_unseen_single_mse ▁
+wandb:                                    test_unseen_single_mse_de ▁
+wandb:                  test_unseen_single_mse_top20_de_non_dropout ▁
+wandb:                                   test_unseen_single_pearson ▁
+wandb:                                test_unseen_single_pearson_de ▁
+wandb:                             test_unseen_single_pearson_delta ▁
+wandb:                                                 train_de_mse █▄▃▁▂▁▁▁▁▂▁▁▁▁▁
+wandb:                                             train_de_pearson ▁▅▆▆▆▇█████████
+wandb:                                                    train_mse █▃▃▁▂▂▂▂▂▂▃▃▂▂▂
+wandb:                                                train_pearson ▁▆▆█▇▇▇▇▇▇▇▇█▇▇
+wandb:                                                training_loss █▁▂▂▄▂▃▁▃▄▃▂▃▂▃▄▃▄▂▄▁▂▂▄▅▄▄▄▃▂▃▃▂▂▄▃▅▂▃▂
+wandb:                                                   val_de_mse █▅▁▄▃▄▃▃▃▃▃▂▃▃▃
+wandb:                                               val_de_pearson ▁▃█▄▄▃▄▄▄▄▅▅▄▅▅
+wandb:                                                      val_mse ▃▆█▁▄▄▄▅▄▅▅▅▄▄▅
+wandb:                                                  val_pearson ▅▂▁█▅▅▄▄▅▄▄▃▅▅▄
+wandb: 
+wandb: Run summary:
+wandb:   test_combo_seen0_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen0_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen0_mse nan
+wandb:                                      test_combo_seen0_mse_de nan
+wandb:                    test_combo_seen0_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen0_pearson nan
+wandb:                                  test_combo_seen0_pearson_de nan
+wandb:                               test_combo_seen0_pearson_delta nan
+wandb:   test_combo_seen1_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen1_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen1_mse nan
+wandb:                                      test_combo_seen1_mse_de nan
+wandb:                    test_combo_seen1_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen1_pearson nan
+wandb:                                  test_combo_seen1_pearson_de nan
+wandb:                               test_combo_seen1_pearson_delta nan
+wandb:   test_combo_seen2_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen2_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen2_mse nan
+wandb:                                      test_combo_seen2_mse_de nan
+wandb:                    test_combo_seen2_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen2_pearson nan
+wandb:                                  test_combo_seen2_pearson_de nan
+wandb:                               test_combo_seen2_pearson_delta nan
+wandb:                                                  test_de_mse 0.03086
+wandb:                                              test_de_pearson 0.94832
+wandb:               test_frac_opposite_direction_top20_non_dropout 0.27917
+wandb:                          test_frac_sigma_below_1_non_dropout 0.95417
+wandb:                                                     test_mse 0.00224
+wandb:                                test_mse_top20_de_non_dropout 0.0327
+wandb:                                                 test_pearson 0.99444
+wandb:                                           test_pearson_delta 0.24424
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout 0.27917
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout 0.95417
+wandb:                                       test_unseen_single_mse 0.00224
+wandb:                                    test_unseen_single_mse_de 0.03086
+wandb:                  test_unseen_single_mse_top20_de_non_dropout 0.0327
+wandb:                                   test_unseen_single_pearson 0.99444
+wandb:                                test_unseen_single_pearson_de 0.94832
+wandb:                             test_unseen_single_pearson_delta 0.24424
+wandb:                                                 train_de_mse 0.01477
+wandb:                                             train_de_pearson 0.95579
+wandb:                                                    train_mse 0.00274
+wandb:                                                train_pearson 0.99352
+wandb:                                                training_loss 0.53388
+wandb:                                                   val_de_mse 0.03281
+wandb:                                               val_de_pearson 0.97957
+wandb:                                                      val_mse 0.00279
+wandb:                                                  val_pearson 0.99319
+wandb: 
+wandb: 🚀 View run gears_esm_TianKampmann2021_CRISPRa_split3 at: https://wandb.ai/zhoumin1130/New_gears/runs/855hkbsk
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/New_gears
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240924_124305-855hkbsk/logs
+Creating new splits....
+Saving new splits at ./All_data/tiankampmann2021_crispra/splits/tiankampmann2021_crispra_simulation_4_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:24
+Done!
+Creating dataloaders....
+Done!
+wandb: wandb version 0.18.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/Gears_change/gears_esm/wandb/run-20240924_125420-58k3k83q
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gears_esm_TianKampmann2021_CRISPRa_split4
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/New_gears
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/New_gears/runs/58k3k83q
+Start Training...
+Epoch 1 Step 1 Train Loss: 1.0608
+Epoch 1 Step 51 Train Loss: 0.6032
+Epoch 1 Step 101 Train Loss: 0.5427
+Epoch 1 Step 151 Train Loss: 0.5672
+Epoch 1: Train Overall MSE: 0.0035 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0285 Validation Top 20 DE MSE: 0.0218. 
+Epoch 2 Step 1 Train Loss: 0.5390
+Epoch 2 Step 51 Train Loss: 0.6061
+Epoch 2 Step 101 Train Loss: 0.5592
+Epoch 2 Step 151 Train Loss: 0.6052
+Epoch 2: Train Overall MSE: 0.0036 Validation Overall MSE: 0.0017. 
+Train Top 20 DE MSE: 0.0210 Validation Top 20 DE MSE: 0.0187. 
+Epoch 3 Step 1 Train Loss: 0.5185
+Epoch 3 Step 51 Train Loss: 0.5783
+Epoch 3 Step 101 Train Loss: 0.5797
+Epoch 3 Step 151 Train Loss: 0.5587
+Epoch 3: Train Overall MSE: 0.0030 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0172 Validation Top 20 DE MSE: 0.0171. 
+Epoch 4 Step 1 Train Loss: 0.5502
+Epoch 4 Step 51 Train Loss: 0.5381
+Epoch 4 Step 101 Train Loss: 0.6494
+Epoch 4 Step 151 Train Loss: 0.5443
+Epoch 4: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0157 Validation Top 20 DE MSE: 0.0183. 
+Epoch 5 Step 1 Train Loss: 0.5612
+Epoch 5 Step 51 Train Loss: 0.5707
+Epoch 5 Step 101 Train Loss: 0.5903
+Epoch 5 Step 151 Train Loss: 0.5631
+Epoch 5: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0016. 
+Train Top 20 DE MSE: 0.0172 Validation Top 20 DE MSE: 0.0197. 
+Epoch 6 Step 1 Train Loss: 0.5441
+Epoch 6 Step 51 Train Loss: 0.5541
+Epoch 6 Step 101 Train Loss: 0.5979
+Epoch 6 Step 151 Train Loss: 0.5203
+Epoch 6: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0167 Validation Top 20 DE MSE: 0.0201. 
+Epoch 7 Step 1 Train Loss: 0.5458
+Epoch 7 Step 51 Train Loss: 0.5198
+Epoch 7 Step 101 Train Loss: 0.5474
+Epoch 7 Step 151 Train Loss: 0.5796
+Epoch 7: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0160 Validation Top 20 DE MSE: 0.0205. 
+Epoch 8 Step 1 Train Loss: 0.5696
+Epoch 8 Step 51 Train Loss: 0.5169
+Epoch 8 Step 101 Train Loss: 0.5196
+Epoch 8 Step 151 Train Loss: 0.5656
+Epoch 8: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0016. 
+Train Top 20 DE MSE: 0.0167 Validation Top 20 DE MSE: 0.0202. 
+Epoch 9 Step 1 Train Loss: 0.5381
+Epoch 9 Step 51 Train Loss: 0.5488
+Epoch 9 Step 101 Train Loss: 0.5372
+Epoch 9 Step 151 Train Loss: 0.5682
+Epoch 9: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0164 Validation Top 20 DE MSE: 0.0203. 
+Epoch 10 Step 1 Train Loss: 0.5920
+Epoch 10 Step 51 Train Loss: 0.5564
+Epoch 10 Step 101 Train Loss: 0.5698
+Epoch 10 Step 151 Train Loss: 0.6322
+Epoch 10: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0164 Validation Top 20 DE MSE: 0.0207. 
+Epoch 11 Step 1 Train Loss: 0.5029
+Epoch 11 Step 51 Train Loss: 0.5951
+Epoch 11 Step 101 Train Loss: 0.6219
+Epoch 11 Step 151 Train Loss: 0.5622
+Epoch 11: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0016. 
+Train Top 20 DE MSE: 0.0164 Validation Top 20 DE MSE: 0.0206. 
+Epoch 12 Step 1 Train Loss: 0.6351
+Epoch 12 Step 51 Train Loss: 0.5443
+Epoch 12 Step 101 Train Loss: 0.5395
+Epoch 12 Step 151 Train Loss: 0.5491
+Epoch 12: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0165 Validation Top 20 DE MSE: 0.0210. 
+Epoch 13 Step 1 Train Loss: 0.5740
+Epoch 13 Step 51 Train Loss: 0.5682
+Epoch 13 Step 101 Train Loss: 0.5366
+Epoch 13 Step 151 Train Loss: 0.5514
+Epoch 13: Train Overall MSE: 0.0029 Validation Overall MSE: 0.0016. 
+Train Top 20 DE MSE: 0.0165 Validation Top 20 DE MSE: 0.0202. 
+Epoch 14 Step 1 Train Loss: 0.5284
+Epoch 14 Step 51 Train Loss: 0.5632
+Epoch 14 Step 101 Train Loss: 0.5580
+Epoch 14 Step 151 Train Loss: 0.5492
+Epoch 14: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0015. 
+Train Top 20 DE MSE: 0.0159 Validation Top 20 DE MSE: 0.0207. 
+Epoch 15 Step 1 Train Loss: 0.5594
+Epoch 15 Step 51 Train Loss: 0.6510
+Epoch 15 Step 101 Train Loss: 0.5362
+Epoch 15 Step 151 Train Loss: 0.5409
+Epoch 15: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0016. 
+Train Top 20 DE MSE: 0.0160 Validation Top 20 DE MSE: 0.0197. 
+Done!
+Start Testing...
+Best performing model: Test Top 20 DE MSE: 0.0554
+Start doing subgroup analysis for simulation split...
+test_combo_seen0_mse: nan
+test_combo_seen0_pearson: nan
+test_combo_seen0_mse_de: nan
+test_combo_seen0_pearson_de: nan
+test_combo_seen1_mse: nan
+test_combo_seen1_pearson: nan
+test_combo_seen1_mse_de: nan
+test_combo_seen1_pearson_de: nan
+test_combo_seen2_mse: nan
+test_combo_seen2_pearson: nan
+test_combo_seen2_mse_de: nan
+test_combo_seen2_pearson_de: nan
+test_unseen_single_mse: 0.0024637848
+test_unseen_single_pearson: 0.993574639447835
+test_unseen_single_mse_de: 0.05542982
+test_unseen_single_pearson_de: 0.9527028171510731
+test_combo_seen0_pearson_delta: nan
+test_combo_seen0_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen0_frac_sigma_below_1_non_dropout: nan
+test_combo_seen0_mse_top20_de_non_dropout: nan
+test_combo_seen1_pearson_delta: nan
+test_combo_seen1_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen1_frac_sigma_below_1_non_dropout: nan
+test_combo_seen1_mse_top20_de_non_dropout: nan
+test_combo_seen2_pearson_delta: nan
+test_combo_seen2_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen2_frac_sigma_below_1_non_dropout: nan
+test_combo_seen2_mse_top20_de_non_dropout: nan
+test_unseen_single_pearson_delta: 0.24310129278486867
+test_unseen_single_frac_opposite_direction_top20_non_dropout: 0.2354166666666667
+test_unseen_single_frac_sigma_below_1_non_dropout: 0.9520833333333333
+test_unseen_single_mse_top20_de_non_dropout: 0.058649745
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.019 MB uploadedwandb: | 0.003 MB of 0.019 MB uploadedwandb: / 0.013 MB of 0.019 MB uploadedwandb: - 0.013 MB of 0.019 MB uploadedwandb: \ 0.013 MB of 0.019 MB uploadedwandb: | 0.019 MB of 0.019 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                                                  test_de_mse ▁
+wandb:                                              test_de_pearson ▁
+wandb:               test_frac_opposite_direction_top20_non_dropout ▁
+wandb:                          test_frac_sigma_below_1_non_dropout ▁
+wandb:                                                     test_mse ▁
+wandb:                                test_mse_top20_de_non_dropout ▁
+wandb:                                                 test_pearson ▁
+wandb:                                           test_pearson_delta ▁
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout ▁
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout ▁
+wandb:                                       test_unseen_single_mse ▁
+wandb:                                    test_unseen_single_mse_de ▁
+wandb:                  test_unseen_single_mse_top20_de_non_dropout ▁
+wandb:                                   test_unseen_single_pearson ▁
+wandb:                                test_unseen_single_pearson_de ▁
+wandb:                             test_unseen_single_pearson_delta ▁
+wandb:                                                 train_de_mse █▄▂▁▂▂▁▂▁▁▁▁▁▁▁
+wandb:                                             train_de_pearson ▁▅██▆▆▆▆▆▆▆▆▆▆▆
+wandb:                                                    train_mse ▇█▄▂▃▂▁▂▂▁▂▂▃▂▃
+wandb:                                                train_pearson ▁▂▅▇▇▇█▇▇█▇▇▇▇▇
+wandb:                                                training_loss ▆▄█▅▆▆█▆▅▁▅▂▃▅▄▂▅▄▂▃▃▅▂▃▅▄▄▁▃▄▂▅▆▃▆▅▄▅▂▄
+wandb:                                                   val_de_mse █▃▁▃▅▅▆▆▆▆▆▇▆▆▅
+wandb:                                               val_de_pearson ▁█▇▇▄▄▄▄▃▃▄▃▄▃▄
+wandb:                                                      val_mse █▄▁▁▂▂▁▂▂▁▂▂▂▂▂
+wandb:                                                  val_pearson ▁▆▇█▇██▇▇█▇▇▇█▇
+wandb: 
+wandb: Run summary:
+wandb:   test_combo_seen0_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen0_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen0_mse nan
+wandb:                                      test_combo_seen0_mse_de nan
+wandb:                    test_combo_seen0_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen0_pearson nan
+wandb:                                  test_combo_seen0_pearson_de nan
+wandb:                               test_combo_seen0_pearson_delta nan
+wandb:   test_combo_seen1_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen1_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen1_mse nan
+wandb:                                      test_combo_seen1_mse_de nan
+wandb:                    test_combo_seen1_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen1_pearson nan
+wandb:                                  test_combo_seen1_pearson_de nan
+wandb:                               test_combo_seen1_pearson_delta nan
+wandb:   test_combo_seen2_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen2_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen2_mse nan
+wandb:                                      test_combo_seen2_mse_de nan
+wandb:                    test_combo_seen2_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen2_pearson nan
+wandb:                                  test_combo_seen2_pearson_de nan
+wandb:                               test_combo_seen2_pearson_delta nan
+wandb:                                                  test_de_mse 0.05543
+wandb:                                              test_de_pearson 0.9527
+wandb:               test_frac_opposite_direction_top20_non_dropout 0.23542
+wandb:                          test_frac_sigma_below_1_non_dropout 0.95208
+wandb:                                                     test_mse 0.00246
+wandb:                                test_mse_top20_de_non_dropout 0.05865
+wandb:                                                 test_pearson 0.99357
+wandb:                                           test_pearson_delta 0.2431
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout 0.23542
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout 0.95208
+wandb:                                       test_unseen_single_mse 0.00246
+wandb:                                    test_unseen_single_mse_de 0.05543
+wandb:                  test_unseen_single_mse_top20_de_non_dropout 0.05865
+wandb:                                   test_unseen_single_pearson 0.99357
+wandb:                                test_unseen_single_pearson_de 0.9527
+wandb:                             test_unseen_single_pearson_delta 0.2431
+wandb:                                                 train_de_mse 0.01595
+wandb:                                             train_de_pearson 0.95456
+wandb:                                                    train_mse 0.00284
+wandb:                                                train_pearson 0.99321
+wandb:                                                training_loss 0.543
+wandb:                                                   val_de_mse 0.01972
+wandb:                                               val_de_pearson 0.98992
+wandb:                                                      val_mse 0.00157
+wandb:                                                  val_pearson 0.99604
+wandb: 
+wandb: 🚀 View run gears_esm_TianKampmann2021_CRISPRa_split4 at: https://wandb.ai/zhoumin1130/New_gears/runs/58k3k83q
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/New_gears
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240924_125420-58k3k83q/logs
+Creating new splits....
+Saving new splits at ./All_data/tiankampmann2021_crispra/splits/tiankampmann2021_crispra_simulation_5_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:24
+Done!
+Creating dataloaders....
+Done!
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.18.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/Gears_change/gears_esm/wandb/run-20240924_130505-hyvkazun
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gears_esm_TianKampmann2021_CRISPRa_split5
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/New_gears
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/New_gears/runs/hyvkazun
+Start Training...
+Epoch 1 Step 1 Train Loss: 1.2277
+Epoch 1 Step 51 Train Loss: 0.5456
+Epoch 1 Step 101 Train Loss: 0.6145
+Epoch 1 Step 151 Train Loss: 0.5820
+Epoch 1: Train Overall MSE: 0.0028 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0360 Validation Top 20 DE MSE: 0.0444. 
+Epoch 2 Step 1 Train Loss: 0.4887
+Epoch 2 Step 51 Train Loss: 0.5855
+Epoch 2 Step 101 Train Loss: 0.5603
+Epoch 2 Step 151 Train Loss: 0.5684
+Epoch 2: Train Overall MSE: 0.0034 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0206 Validation Top 20 DE MSE: 0.0355. 
+Epoch 3 Step 1 Train Loss: 0.5220
+Epoch 3 Step 51 Train Loss: 0.5051
+Epoch 3 Step 101 Train Loss: 0.6222
+Epoch 3 Step 151 Train Loss: 0.5542
+Epoch 3: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0020. 
+Train Top 20 DE MSE: 0.0215 Validation Top 20 DE MSE: 0.0310. 
+Epoch 4 Step 1 Train Loss: 0.6229
+Epoch 4 Step 51 Train Loss: 0.5557
+Epoch 4 Step 101 Train Loss: 0.5279
+Epoch 4 Step 151 Train Loss: 0.6022
+Epoch 4: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0022. 
+Train Top 20 DE MSE: 0.0212 Validation Top 20 DE MSE: 0.0329. 
+Epoch 5 Step 1 Train Loss: 0.5543
+Epoch 5 Step 51 Train Loss: 0.5447
+Epoch 5 Step 101 Train Loss: 0.5593
+Epoch 5 Step 151 Train Loss: 0.5784
+Epoch 5: Train Overall MSE: 0.0023 Validation Overall MSE: 0.0022. 
+Train Top 20 DE MSE: 0.0159 Validation Top 20 DE MSE: 0.0347. 
+Epoch 6 Step 1 Train Loss: 0.6160
+Epoch 6 Step 51 Train Loss: 0.5495
+Epoch 6 Step 101 Train Loss: 0.5440
+Epoch 6 Step 151 Train Loss: 0.5188
+Epoch 6: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0172 Validation Top 20 DE MSE: 0.0311. 
+Epoch 7 Step 1 Train Loss: 0.5052
+Epoch 7 Step 51 Train Loss: 0.5710
+Epoch 7 Step 101 Train Loss: 0.6111
+Epoch 7 Step 151 Train Loss: 0.5553
+Epoch 7: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0162 Validation Top 20 DE MSE: 0.0335. 
+Epoch 8 Step 1 Train Loss: 0.5329
+Epoch 8 Step 51 Train Loss: 0.5712
+Epoch 8 Step 101 Train Loss: 0.5522
+Epoch 8 Step 151 Train Loss: 0.5483
+Epoch 8: Train Overall MSE: 0.0027 Validation Overall MSE: 0.0024. 
+Train Top 20 DE MSE: 0.0169 Validation Top 20 DE MSE: 0.0328. 
+Epoch 9 Step 1 Train Loss: 0.5274
+Epoch 9 Step 51 Train Loss: 0.5419
+Epoch 9 Step 101 Train Loss: 0.5582
+Epoch 9 Step 151 Train Loss: 0.6110
+Epoch 9: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0022. 
+Train Top 20 DE MSE: 0.0159 Validation Top 20 DE MSE: 0.0314. 
+Epoch 10 Step 1 Train Loss: 0.5990
+Epoch 10 Step 51 Train Loss: 0.5543
+Epoch 10 Step 101 Train Loss: 0.5267
+Epoch 10 Step 151 Train Loss: 0.4923
+Epoch 10: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0160 Validation Top 20 DE MSE: 0.0337. 
+Epoch 11 Step 1 Train Loss: 0.5367
+Epoch 11 Step 51 Train Loss: 0.5227
+Epoch 11 Step 101 Train Loss: 0.5811
+Epoch 11 Step 151 Train Loss: 0.4905
+Epoch 11: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0022. 
+Train Top 20 DE MSE: 0.0170 Validation Top 20 DE MSE: 0.0323. 
+Epoch 12 Step 1 Train Loss: 0.6024
+Epoch 12 Step 51 Train Loss: 0.5170
+Epoch 12 Step 101 Train Loss: 0.6010
+Epoch 12 Step 151 Train Loss: 0.5484
+Epoch 12: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0166 Validation Top 20 DE MSE: 0.0330. 
+Epoch 13 Step 1 Train Loss: 0.5388
+Epoch 13 Step 51 Train Loss: 0.5333
+Epoch 13 Step 101 Train Loss: 0.5336
+Epoch 13 Step 151 Train Loss: 0.5546
+Epoch 13: Train Overall MSE: 0.0026 Validation Overall MSE: 0.0022. 
+Train Top 20 DE MSE: 0.0165 Validation Top 20 DE MSE: 0.0327. 
+Epoch 14 Step 1 Train Loss: 0.5358
+Epoch 14 Step 51 Train Loss: 0.5496
+Epoch 14 Step 101 Train Loss: 0.5679
+Epoch 14 Step 151 Train Loss: 0.5365
+Epoch 14: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0160 Validation Top 20 DE MSE: 0.0323. 
+Epoch 15 Step 1 Train Loss: 0.5077
+Epoch 15 Step 51 Train Loss: 0.4897
+Epoch 15 Step 101 Train Loss: 0.5562
+Epoch 15 Step 151 Train Loss: 0.5515
+Epoch 15: Train Overall MSE: 0.0025 Validation Overall MSE: 0.0023. 
+Train Top 20 DE MSE: 0.0159 Validation Top 20 DE MSE: 0.0327. 
+Done!
+Start Testing...
+Best performing model: Test Top 20 DE MSE: 0.0331
+Start doing subgroup analysis for simulation split...
+test_combo_seen0_mse: nan
+test_combo_seen0_pearson: nan
+test_combo_seen0_mse_de: nan
+test_combo_seen0_pearson_de: nan
+test_combo_seen1_mse: nan
+test_combo_seen1_pearson: nan
+test_combo_seen1_mse_de: nan
+test_combo_seen1_pearson_de: nan
+test_combo_seen2_mse: nan
+test_combo_seen2_pearson: nan
+test_combo_seen2_mse_de: nan
+test_combo_seen2_pearson_de: nan
+test_unseen_single_mse: 0.002389324
+test_unseen_single_pearson: 0.9937819974341852
+test_unseen_single_mse_de: 0.03310203
+test_unseen_single_pearson_de: 0.9530858257463186
+test_combo_seen0_pearson_delta: nan
+test_combo_seen0_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen0_frac_sigma_below_1_non_dropout: nan
+test_combo_seen0_mse_top20_de_non_dropout: nan
+test_combo_seen1_pearson_delta: nan
+test_combo_seen1_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen1_frac_sigma_below_1_non_dropout: nan
+test_combo_seen1_mse_top20_de_non_dropout: nan
+test_combo_seen2_pearson_delta: nan
+test_combo_seen2_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen2_frac_sigma_below_1_non_dropout: nan
+test_combo_seen2_mse_top20_de_non_dropout: nan
+test_unseen_single_pearson_delta: 0.22494427326756036
+test_unseen_single_frac_opposite_direction_top20_non_dropout: 0.28958333333333336
+test_unseen_single_frac_sigma_below_1_non_dropout: 0.9520833333333334
+test_unseen_single_mse_top20_de_non_dropout: 0.03712778
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.001 MB uploadedwandb: | 0.001 MB of 0.019 MB uploadedwandb: / 0.001 MB of 0.019 MB uploadedwandb: - 0.019 MB of 0.019 MB uploadedwandb: \ 0.019 MB of 0.019 MB uploadedwandb: | 0.019 MB of 0.019 MB uploadedwandb: / 0.019 MB of 0.019 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                                                  test_de_mse ▁
+wandb:                                              test_de_pearson ▁
+wandb:               test_frac_opposite_direction_top20_non_dropout ▁
+wandb:                          test_frac_sigma_below_1_non_dropout ▁
+wandb:                                                     test_mse ▁
+wandb:                                test_mse_top20_de_non_dropout ▁
+wandb:                                                 test_pearson ▁
+wandb:                                           test_pearson_delta ▁
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout ▁
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout ▁
+wandb:                                       test_unseen_single_mse ▁
+wandb:                                    test_unseen_single_mse_de ▁
+wandb:                  test_unseen_single_mse_top20_de_non_dropout ▁
+wandb:                                   test_unseen_single_pearson ▁
+wandb:                                test_unseen_single_pearson_de ▁
+wandb:                             test_unseen_single_pearson_delta ▁
+wandb:                                                 train_de_mse █▃▃▃▁▁▁▁▁▁▁▁▁▁▁
+wandb:                                             train_de_pearson ▁▄▅▆▇▇█▇███████
+wandb:                                                    train_mse ▄█▃▂▁▄▂▃▃▃▂▃▃▂▂
+wandb:                                                train_pearson ▄▁▅▇█▆▇▆▇▇▇▆▇▇▇
+wandb:                                                training_loss █▇▃▃▄▂▄▅▃▃▂▇▃▂▃▃▄▃▁▃▃▁▃▂▄▄▃▂▃▂▂▃▂▂▄▃▄▄▂▂
+wandb:                                                   val_de_mse █▃▁▂▃▁▂▂▁▂▂▂▂▂▂
+wandb:                                               val_de_pearson ▁▄▆▇▆█▆▇▇▆▄▆▅▆▆
+wandb:                                                      val_mse ▇▆▁▄▄▇▆█▅▇▅▆▅▆▆
+wandb:                                                  val_pearson ▁▂█▅▆▃▃▁▄▂▅▃▄▄▃
+wandb: 
+wandb: Run summary:
+wandb:   test_combo_seen0_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen0_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen0_mse nan
+wandb:                                      test_combo_seen0_mse_de nan
+wandb:                    test_combo_seen0_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen0_pearson nan
+wandb:                                  test_combo_seen0_pearson_de nan
+wandb:                               test_combo_seen0_pearson_delta nan
+wandb:   test_combo_seen1_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen1_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen1_mse nan
+wandb:                                      test_combo_seen1_mse_de nan
+wandb:                    test_combo_seen1_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen1_pearson nan
+wandb:                                  test_combo_seen1_pearson_de nan
+wandb:                               test_combo_seen1_pearson_delta nan
+wandb:   test_combo_seen2_frac_opposite_direction_top20_non_dropout nan
+wandb:              test_combo_seen2_frac_sigma_below_1_non_dropout nan
+wandb:                                         test_combo_seen2_mse nan
+wandb:                                      test_combo_seen2_mse_de nan
+wandb:                    test_combo_seen2_mse_top20_de_non_dropout nan
+wandb:                                     test_combo_seen2_pearson nan
+wandb:                                  test_combo_seen2_pearson_de nan
+wandb:                               test_combo_seen2_pearson_delta nan
+wandb:                                                  test_de_mse 0.0331
+wandb:                                              test_de_pearson 0.95309
+wandb:               test_frac_opposite_direction_top20_non_dropout 0.28958
+wandb:                          test_frac_sigma_below_1_non_dropout 0.95208
+wandb:                                                     test_mse 0.00239
+wandb:                                test_mse_top20_de_non_dropout 0.03713
+wandb:                                                 test_pearson 0.99378
+wandb:                                           test_pearson_delta 0.22494
+wandb: test_unseen_single_frac_opposite_direction_top20_non_dropout 0.28958
+wandb:            test_unseen_single_frac_sigma_below_1_non_dropout 0.95208
+wandb:                                       test_unseen_single_mse 0.00239
+wandb:                                    test_unseen_single_mse_de 0.0331
+wandb:                  test_unseen_single_mse_top20_de_non_dropout 0.03713
+wandb:                                   test_unseen_single_pearson 0.99378
+wandb:                                test_unseen_single_pearson_de 0.95309
+wandb:                             test_unseen_single_pearson_delta 0.22494
+wandb:                                                 train_de_mse 0.01592
+wandb:                                             train_de_pearson 0.96197
+wandb:                                                    train_mse 0.00253
+wandb:                                                train_pearson 0.99393
+wandb:                                                training_loss 0.55396
+wandb:                                                   val_de_mse 0.03267
+wandb:                                               val_de_pearson 0.95004
+wandb:                                                      val_mse 0.0023
+wandb:                                                  val_pearson 0.99422
+wandb: 
+wandb: 🚀 View run gears_esm_TianKampmann2021_CRISPRa_split5 at: https://wandb.ai/zhoumin1130/New_gears/runs/hyvkazun
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/New_gears
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240924_130505-hyvkazun/logs

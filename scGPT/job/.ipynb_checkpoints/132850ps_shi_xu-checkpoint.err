@@ -1,0 +1,758 @@
+cuda-11.8.0 loaded successful
+gcc-9.3.0 loaded successful
+cmake-3.27.0 loaded successful
+openmpi-4.1.2 loaded successful
+Openblas-0.3.25 loaded successful
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:09<01:14,  9.31s/it] 22%|██▏       | 2/9 [00:21<01:16, 10.93s/it] 33%|███▎      | 3/9 [00:33<01:08, 11.40s/it] 56%|█████▌    | 5/9 [00:39<00:26,  6.61s/it] 67%|██████▋   | 6/9 [00:48<00:21,  7.30s/it] 78%|███████▊  | 7/9 [01:08<00:21, 10.95s/it] 89%|████████▉ | 8/9 [01:08<00:07,  7.78s/it]100%|██████████| 9/9 [01:19<00:00,  8.69s/it]100%|██████████| 9/9 [01:19<00:00,  8.79s/it]
+Saving new dataset pyg object at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_arrayed_rna/data_pyg/cell_graphs.pkl
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_215239-rbgiy092
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_arrayed_RNA_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/rbgiy092
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_arrayed_rna/splits/papalexisatija2021_eccite_arrayed_rna_simulation_1_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.033 MB uploadedwandb: | 0.013 MB of 0.033 MB uploadedwandb: / 0.033 MB of 0.033 MB uploadedwandb: - 0.033 MB of 0.033 MB uploadedwandb: \ 0.033 MB of 0.033 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▁▁▁▁▁▁▁
+wandb:        epoch ▁▂▃▄▅▆▇█
+wandb:     val_loss █▄▁▃▅▃▆▆
+wandb:      val_mre ▄▁█▄▆▄▅▄
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 49.59467
+wandb:               epoch 8
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4997/5000 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 21:52:57
+wandb:            val_loss 0.08617
+wandb:             val_mre 69071.99805
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_arrayed_RNA_split1 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/rbgiy092
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_215239-rbgiy092/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_220044-5dlawnbm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_arrayed_RNA_split2
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/5dlawnbm
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_arrayed_rna/splits/papalexisatija2021_eccite_arrayed_rna_simulation_2_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.035 MB uploadedwandb: | 0.013 MB of 0.035 MB uploadedwandb: / 0.035 MB of 0.035 MB uploadedwandb: - 0.035 MB of 0.035 MB uploadedwandb: \ 0.035 MB of 0.035 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▂▂▅▃▂▄▄█▆▆▁▄█
+wandb:        epoch ▁▂▂▃▃▄▅▅▆▆▇▇█
+wandb:     val_loss █▅▄▅▁▃▁▁▃▅▂▅▂
+wandb:      val_mre █▇▁▃▅▄▂▄▁▂▃▄▂
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 49.11904
+wandb:               epoch 13
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4997/5000 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 22:00:59
+wandb:            val_loss 0.09272
+wandb:             val_mre 71520.875
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_arrayed_RNA_split2 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/5dlawnbm
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_220044-5dlawnbm/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_221253-udndfduq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_arrayed_RNA_split3
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/udndfduq
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_arrayed_rna/splits/papalexisatija2021_eccite_arrayed_rna_simulation_3_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.033 MB uploadedwandb: | 0.013 MB of 0.033 MB uploadedwandb: / 0.033 MB of 0.033 MB uploadedwandb: - 0.033 MB of 0.033 MB uploadedwandb: \ 0.033 MB of 0.033 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▄▄▃▆▂▅█▆▁
+wandb:        epoch ▁▂▃▄▅▅▆▇█
+wandb:     val_loss █▇▃▁▃▄▃▆▃
+wandb:      val_mre ██▂▂▃▁▅▄▁
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 45.08282
+wandb:               epoch 9
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4997/5000 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 22:13:08
+wandb:            val_loss 0.08805
+wandb:             val_mre 65271.83984
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_arrayed_RNA_split3 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/udndfduq
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_221253-udndfduq/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_222132-fb387il8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_arrayed_RNA_split4
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/fb387il8
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_arrayed_rna/splits/papalexisatija2021_eccite_arrayed_rna_simulation_4_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.033 MB uploadedwandb: | 0.003 MB of 0.033 MB uploadedwandb: / 0.033 MB of 0.033 MB uploadedwandb: - 0.033 MB of 0.033 MB uploadedwandb: \ 0.033 MB of 0.033 MB uploadedwandb: | 0.033 MB of 0.033 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▂▂▃▄▅▆▁▂▅█
+wandb:        epoch ▁▂▂▃▄▅▅▆▇▇█
+wandb:     val_loss █▃▄▃▅▁█▃▅▄▇
+wandb:      val_mre ▅▇▃▃▃▄▃▂▃▁█
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 41.78931
+wandb:               epoch 11
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4997/5000 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 22:21:47
+wandb:            val_loss 0.10997
+wandb:             val_mre 102259.78564
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_arrayed_RNA_split4 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/fb387il8
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_222132-fb387il8/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_223106-kjglebru
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_arrayed_RNA_split5
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/kjglebru
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_arrayed_rna/splits/papalexisatija2021_eccite_arrayed_rna_simulation_5_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.032 MB uploadedwandb: | 0.002 MB of 0.032 MB uploadedwandb: / 0.027 MB of 0.032 MB uploadedwandb: - 0.027 MB of 0.032 MB uploadedwandb: \ 0.027 MB of 0.032 MB uploadedwandb: | 0.032 MB of 0.032 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▃▁█▁▂▂
+wandb:        epoch ▁▂▄▅▇█
+wandb:     val_loss ▁▅▅▂▂█
+wandb:      val_mre ▁▃▇██▆
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 52.54839
+wandb:               epoch 6
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4997/5000 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 22:31:21
+wandb:            val_loss 0.08848
+wandb:             val_mre 76462.875
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_arrayed_RNA_split5 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/kjglebru
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_223106-kjglebru/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:45<18:21, 45.88s/it]  8%|▊         | 2/25 [01:37<18:51, 49.21s/it] 12%|█▏        | 3/25 [02:04<14:15, 38.88s/it] 16%|█▌        | 4/25 [02:38<13:04, 37.34s/it] 20%|██        | 5/25 [02:39<08:00, 24.03s/it] 24%|██▍       | 6/25 [03:42<11:47, 37.21s/it] 28%|██▊       | 7/25 [04:10<10:16, 34.26s/it] 32%|███▏      | 8/25 [05:09<11:57, 42.20s/it] 36%|███▌      | 9/25 [05:54<11:28, 43.03s/it] 40%|████      | 10/25 [06:33<10:27, 41.84s/it] 44%|████▍     | 11/25 [07:11<09:28, 40.60s/it] 48%|████▊     | 12/25 [07:58<09:11, 42.45s/it] 52%|█████▏    | 13/25 [09:15<10:35, 52.94s/it] 56%|█████▌    | 14/25 [09:45<08:27, 46.09s/it] 60%|██████    | 15/25 [10:54<08:48, 52.90s/it] 64%|██████▍   | 16/25 [11:28<07:07, 47.47s/it] 68%|██████▊   | 17/25 [11:44<05:03, 37.91s/it] 72%|███████▏  | 18/25 [12:02<03:43, 31.98s/it] 76%|███████▌  | 19/25 [13:04<04:04, 40.78s/it] 80%|████████  | 20/25 [13:43<03:21, 40.26s/it] 84%|████████▍ | 21/25 [14:31<02:50, 42.71s/it] 88%|████████▊ | 22/25 [15:43<02:34, 51.52s/it] 92%|█████████▏| 23/25 [16:39<01:45, 52.82s/it] 96%|█████████▌| 24/25 [16:45<00:38, 38.84s/it]100%|██████████| 25/25 [16:48<00:00, 28.00s/it]100%|██████████| 25/25 [16:48<00:00, 40.34s/it]
+Saving new dataset pyg object at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_rna/data_pyg/cell_graphs.pkl
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_225523-g70aybxk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_RNA_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/g70aybxk
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_rna/splits/papalexisatija2021_eccite_rna_simulation_1_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:6
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.033 MB uploadedwandb: | 0.001 MB of 0.033 MB uploadedwandb: / 0.031 MB of 0.033 MB uploadedwandb: - 0.031 MB of 0.033 MB uploadedwandb: \ 0.033 MB of 0.033 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▂▁▁▂▁
+wandb:        epoch ▁▂▄▅▇█
+wandb:     val_loss ▁█▇▇█▃
+wandb:      val_mre ▇▁▅█▃▄
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 153.44457
+wandb:               epoch 6
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4999/5007 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 22:55:38
+wandb:            val_loss 0.14791
+wandb:             val_mre 100138.23765
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_RNA_split1 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/g70aybxk
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_225523-g70aybxk/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_232110-b1xfq9e3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_RNA_split2
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/b1xfq9e3
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_rna/splits/papalexisatija2021_eccite_rna_simulation_2_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:6
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.038 MB uploadedwandb: | 0.001 MB of 0.038 MB uploadedwandb: / 0.032 MB of 0.038 MB uploadedwandb: - 0.032 MB of 0.038 MB uploadedwandb: \ 0.038 MB of 0.038 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▄▃▅▄▄▅█▂▁▄▅▃▄▆▅
+wandb:        epoch ▁▁▂▃▃▃▄▅▅▅▆▇▇▇█
+wandb:     val_loss █▃▅▆▃▃▂▄▄▅▂▃▁▃▆
+wandb:      val_mre ▁▇▆█▃▆▄▅▇▇▆▅▅▅▄
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:        elapsed_time 153.07554
+wandb:               epoch 15
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4999/5007 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 23:21:24
+wandb:            val_loss 0.15229
+wandb:             val_mre 94650.35263
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_RNA_split2 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/b1xfq9e3
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_232110-b1xfq9e3/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_000952-vfk51ih3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_RNA_split3
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/vfk51ih3
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_rna/splits/papalexisatija2021_eccite_rna_simulation_3_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:6
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.001 MB uploadedwandb: | 0.001 MB of 0.001 MB uploadedwandb: / 0.001 MB of 0.001 MB uploadedwandb: - 0.001 MB of 0.034 MB uploadedwandb: \ 0.008 MB of 0.034 MB uploadedwandb: | 0.013 MB of 0.034 MB uploadedwandb: / 0.013 MB of 0.034 MB uploadedwandb: - 0.034 MB of 0.034 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▄▅▆▄▁▄▃
+wandb:        epoch ▁▂▃▄▅▆▇█
+wandb:     val_loss ▇▃▁█▄▄▄▄
+wandb:      val_mre ▆▅▃▇▁█▂▄
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 150.67516
+wandb:               epoch 8
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4999/5007 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 00:10:07
+wandb:            val_loss 0.14532
+wandb:             val_mre 102495.76531
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_RNA_split3 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/vfk51ih3
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_000952-vfk51ih3/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_004143-k79v2nuf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_RNA_split4
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/k79v2nuf
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_rna/splits/papalexisatija2021_eccite_rna_simulation_4_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:6
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.033 MB uploadedwandb: | 0.028 MB of 0.033 MB uploadedwandb: / 0.028 MB of 0.033 MB uploadedwandb: - 0.033 MB of 0.033 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▆▁▃▃▂
+wandb:        epoch ▁▂▄▅▇█
+wandb:     val_loss ▁█▂▄█▆
+wandb:      val_mre ▅█▃▄█▁
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 165.09073
+wandb:               epoch 6
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4999/5007 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 00:41:55
+wandb:            val_loss 0.15224
+wandb:             val_mre 98518.77009
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_RNA_split4 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/k79v2nuf
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_004143-k79v2nuf/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_010551-3ktzabf0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run PapalexiSatija2021_eccite_RNA_split5
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/3ktzabf0
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/papalexisatija2021_eccite_rna/splits/papalexisatija2021_eccite_rna_simulation_5_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:6
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.038 MB uploadedwandb: | 0.038 MB of 0.038 MB uploadedwandb: / 0.038 MB of 0.038 MB uploadedwandb: - 0.038 MB of 0.038 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▅▁▆▆▇▇▆█▅▅▄▄▅▅▅
+wandb:        epoch ▁▁▂▃▃▃▄▅▅▅▆▇▇▇█
+wandb:     val_loss █▅▄▆▄▄▃▄▄▆▅▂▃▄▁
+wandb:      val_mre █▇▁▁▁▁▅▃▄▆▃▄▂▄▅
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:        elapsed_time 150.79904
+wandb:               epoch 15
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4999/5007 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 01:06:04
+wandb:            val_loss 0.13923
+wandb:             val_mre 101568.45985
+wandb: 
+wandb: 🚀 View run PapalexiSatija2021_eccite_RNA_split5 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/3ktzabf0
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_010551-3ktzabf0/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/19 [00:00<?, ?it/s]  5%|▌         | 1/19 [00:06<01:50,  6.16s/it] 11%|█         | 2/19 [00:10<01:29,  5.27s/it] 16%|█▌        | 3/19 [00:12<00:59,  3.71s/it] 21%|██        | 4/19 [00:17<01:01,  4.08s/it] 26%|██▋       | 5/19 [00:19<00:50,  3.58s/it] 32%|███▏      | 6/19 [00:28<01:06,  5.13s/it] 37%|███▋      | 7/19 [00:31<00:54,  4.56s/it] 42%|████▏     | 8/19 [00:35<00:49,  4.51s/it] 47%|████▋     | 9/19 [00:39<00:41,  4.13s/it] 53%|█████▎    | 10/19 [00:44<00:39,  4.34s/it] 58%|█████▊    | 11/19 [00:46<00:31,  3.92s/it] 63%|██████▎   | 12/19 [00:51<00:28,  4.07s/it] 68%|██████▊   | 13/19 [00:54<00:21,  3.62s/it] 74%|███████▎  | 14/19 [00:57<00:17,  3.57s/it] 79%|███████▉  | 15/19 [01:02<00:16,  4.04s/it] 84%|████████▍ | 16/19 [01:05<00:11,  3.70s/it] 89%|████████▉ | 17/19 [01:07<00:06,  3.33s/it] 95%|█████████▍| 18/19 [01:10<00:03,  3.01s/it]100%|██████████| 19/19 [01:12<00:00,  2.92s/it]100%|██████████| 19/19 [01:12<00:00,  3.84s/it]
+Saving new dataset pyg object at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/shifrutmarson2018/data_pyg/cell_graphs.pkl
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_015709-bm1lya9y
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ShifrutMarson2018_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/bm1lya9y
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/shifrutmarson2018/splits/shifrutmarson2018_simulation_1_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:5
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.053 MB uploadedwandb: | 0.001 MB of 0.053 MB uploadedwandb: / 0.052 MB of 0.053 MB uploadedwandb: - 0.052 MB of 0.053 MB uploadedwandb: \ 0.053 MB of 0.053 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▁▁▂▃▅▆▇███▇▇▇██
+wandb:        epoch ▁▁▂▃▃▃▄▅▅▅▆▇▇▇█
+wandb:     val_loss ▅▅▂▂▅▄█▂▁▁▇▅▁▃▄
+wandb:      val_mre ▇▃█▂▃▃▄▁▃▁▃▂▂▃▂
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 551.38362
+wandb:               epoch 15
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4647/5008 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 01:57:27
+wandb:            val_loss 0.06472
+wandb:             val_mre 36628.3716
+wandb: 
+wandb: 🚀 View run ShifrutMarson2018_split1 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/bm1lya9y
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_015709-bm1lya9y/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_041712-slcbx31p
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ShifrutMarson2018_split2
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/slcbx31p
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/shifrutmarson2018/splits/shifrutmarson2018_simulation_2_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:5
+Done!
+Creating dataloaders....
+Done!
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/ShifrutMarson2018.py", line 491, in <module>
+    test_res = eval_perturb(test_loader, best_model, device, pert_data)
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/ShifrutMarson2018.py", line 277, in eval_perturb
+    p = model.pred_perturb(batch, include_zero_gene, gene_ids=gene_ids)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 322, in pred_perturb
+    output_dict = self(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 206, in forward
+    transformer_output = self._encode(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 141, in _encode
+    output = self.transformer_encoder(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 315, in forward
+    output = mod(output, src_mask=mask, is_causal=is_causal, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 591, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal))
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 599, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1205, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/functional.py", line 5373, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 11.96 GiB (GPU 0; 39.41 GiB total capacity; 15.03 GiB already allocated; 9.73 GiB free; 28.35 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/ShifrutMarson2018.py", line 491, in <module>
+    test_res = eval_perturb(test_loader, best_model, device, pert_data)
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/ShifrutMarson2018.py", line 277, in eval_perturb
+    p = model.pred_perturb(batch, include_zero_gene, gene_ids=gene_ids)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 322, in pred_perturb
+    output_dict = self(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 206, in forward
+    transformer_output = self._encode(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 141, in _encode
+    output = self.transformer_encoder(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 315, in forward
+    output = mod(output, src_mask=mask, is_causal=is_causal, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 591, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal))
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 599, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1205, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/functional.py", line 5373, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 11.96 GiB (GPU 0; 39.41 GiB total capacity; 15.03 GiB already allocated; 9.73 GiB free; 28.35 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.045 MB uploadedwandb: | 0.043 MB of 0.045 MB uploadedwandb: / 0.045 MB of 0.045 MB uploadedwandb: - 0.045 MB of 0.045 MB uploadedwandb: 
+wandb: Run history:
+wandb: elapsed_time ▂▁▂▄▆█
+wandb:        epoch ▁▂▄▅▇█
+wandb:     val_loss ▁█▃▁▄▃
+wandb:      val_mre ▂▅▂▁▅█
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 543.76261
+wandb:               epoch 6
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4647/5008 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 04:17:28
+wandb:            val_loss 0.0622
+wandb:             val_mre 44714.18399
+wandb: 
+wandb: 🚀 View run ShifrutMarson2018_split2 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/slcbx31p
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_041712-slcbx31p/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/203 [00:00<?, ?it/s]  0%|          | 1/203 [00:20<1:07:21, 20.01s/it]  1%|          | 2/203 [01:01<1:49:52, 32.80s/it]  1%|▏         | 3/203 [02:08<2:40:34, 48.17s/it]  2%|▏         | 4/203 [02:50<2:32:19, 45.93s/it]  2%|▏         | 5/203 [03:52<2:49:54, 51.49s/it]  3%|▎         | 6/203 [04:31<2:36:06, 47.55s/it]  3%|▎         | 7/203 [06:18<3:38:46, 66.97s/it]  4%|▍         | 8/203 [06:42<2:52:46, 53.16s/it]  4%|▍         | 9/203 [08:10<3:27:34, 64.20s/it]  5%|▍         | 10/203 [08:21<2:33:17, 47.65s/it]  5%|▌         | 11/203 [08:25<1:50:01, 34.38s/it]  6%|▌         | 12/203 [08:56<1:46:07, 33.34s/it]  6%|▋         | 13/203 [09:23<1:39:13, 31.33s/it]  7%|▋         | 14/203 [10:31<2:13:47, 42.47s/it]  7%|▋         | 15/203 [11:22<2:21:12, 45.07s/it]  8%|▊         | 16/203 [12:00<2:13:34, 42.86s/it]  8%|▊         | 17/203 [12:37<2:07:11, 41.03s/it]  9%|▉         | 18/203 [12:39<1:30:29, 29.35s/it]  9%|▉         | 19/203 [13:15<1:36:13, 31.38s/it] 10%|▉         | 20/203 [13:43<1:32:16, 30.25s/it] 10%|█         | 21/203 [14:15<1:33:09, 30.71s/it] 11%|█         | 22/203 [14:39<1:27:16, 28.93s/it] 11%|█▏        | 23/203 [15:03<1:21:46, 27.26s/it] 12%|█▏        | 24/203 [15:24<1:15:45, 25.40s/it] 12%|█▏        | 25/203 [15:34<1:01:49, 20.84s/it] 13%|█▎        | 26/203 [15:50<57:39, 19.55s/it]   13%|█▎        | 27/203 [16:36<1:20:01, 27.28s/it] 14%|█▍        | 28/203 [17:30<1:43:32, 35.50s/it] 14%|█▍        | 29/203 [17:58<1:35:42, 33.00s/it] 15%|█▍        | 30/203 [18:05<1:13:14, 25.40s/it] 15%|█▌        | 31/203 [18:25<1:07:36, 23.58s/it] 16%|█▌        | 32/203 [19:19<1:33:35, 32.84s/it] 16%|█▋        | 33/203 [19:21<1:07:08, 23.70s/it] 17%|█▋        | 34/203 [20:11<1:28:42, 31.49s/it] 17%|█▋        | 35/203 [20:13<1:03:17, 22.60s/it] 18%|█▊        | 36/203 [20:36<1:02:54, 22.60s/it] 18%|█▊        | 37/203 [21:04<1:07:26, 24.37s/it] 19%|█▊        | 38/203 [21:43<1:19:04, 28.75s/it] 19%|█▉        | 39/203 [22:36<1:38:01, 35.86s/it] 20%|█▉        | 40/203 [22:42<1:13:42, 27.13s/it] 20%|██        | 41/203 [22:46<54:13, 20.08s/it]   21%|██        | 42/203 [23:10<57:29, 21.42s/it] 21%|██        | 43/203 [23:38<1:02:17, 23.36s/it] 22%|██▏       | 44/203 [23:51<53:03, 20.02s/it]   22%|██▏       | 45/203 [24:32<1:09:55, 26.55s/it] 23%|██▎       | 46/203 [25:16<1:22:41, 31.60s/it] 23%|██▎       | 47/203 [26:18<1:46:11, 40.84s/it] 24%|██▎       | 48/203 [26:35<1:27:16, 33.79s/it] 24%|██▍       | 49/203 [27:06<1:24:33, 32.94s/it] 25%|██▍       | 50/203 [27:46<1:28:53, 34.86s/it] 25%|██▌       | 51/203 [27:48<1:03:15, 24.97s/it] 26%|██▌       | 52/203 [28:13<1:03:06, 25.08s/it] 26%|██▌       | 53/203 [28:33<58:33, 23.42s/it]   27%|██▋       | 54/203 [29:01<1:02:11, 25.04s/it] 27%|██▋       | 55/203 [29:52<1:20:36, 32.68s/it] 28%|██▊       | 56/203 [30:34<1:27:06, 35.56s/it] 28%|██▊       | 57/203 [30:57<1:17:22, 31.80s/it] 29%|██▊       | 58/203 [31:27<1:15:05, 31.08s/it] 29%|██▉       | 59/203 [31:49<1:08:25, 28.51s/it] 30%|██▉       | 60/203 [32:16<1:07:07, 28.16s/it] 30%|███       | 61/203 [33:12<1:26:01, 36.35s/it] 31%|███       | 62/203 [33:36<1:16:34, 32.59s/it] 31%|███       | 63/203 [34:21<1:25:01, 36.44s/it] 32%|███▏      | 64/203 [34:45<1:16:01, 32.82s/it] 32%|███▏      | 65/203 [35:39<1:29:56, 39.10s/it] 33%|███▎      | 66/203 [35:40<1:02:48, 27.50s/it] 33%|███▎      | 67/203 [36:25<1:14:23, 32.82s/it] 33%|███▎      | 68/203 [37:10<1:22:22, 36.61s/it] 34%|███▍      | 69/203 [37:45<1:20:45, 36.16s/it] 34%|███▍      | 70/203 [38:18<1:17:41, 35.05s/it] 35%|███▍      | 71/203 [39:08<1:27:08, 39.61s/it] 35%|███▌      | 72/203 [39:42<1:22:23, 37.73s/it] 36%|███▌      | 73/203 [40:04<1:11:51, 33.17s/it] 36%|███▋      | 74/203 [40:32<1:07:45, 31.52s/it] 37%|███▋      | 75/203 [40:36<50:06, 23.49s/it]   37%|███▋      | 76/203 [41:23<1:04:12, 30.34s/it] 38%|███▊      | 77/203 [42:03<1:09:56, 33.30s/it] 38%|███▊      | 78/203 [42:32<1:06:43, 32.03s/it] 39%|███▉      | 79/203 [42:49<57:02, 27.60s/it]   39%|███▉      | 80/203 [43:07<50:22, 24.57s/it] 40%|███▉      | 81/203 [43:26<46:25, 22.84s/it] 40%|████      | 82/203 [44:13<1:01:07, 30.31s/it] 41%|████      | 83/203 [44:42<59:22, 29.69s/it]   41%|████▏     | 84/203 [45:07<56:32, 28.50s/it] 42%|████▏     | 85/203 [45:39<57:55, 29.46s/it] 42%|████▏     | 86/203 [45:56<50:24, 25.85s/it] 43%|████▎     | 87/203 [46:02<38:14, 19.78s/it] 43%|████▎     | 88/203 [46:38<47:05, 24.57s/it] 44%|████▍     | 89/203 [46:57<43:21, 22.82s/it] 44%|████▍     | 90/203 [47:41<55:01, 29.21s/it] 45%|████▍     | 91/203 [48:56<1:20:33, 43.16s/it] 45%|████▌     | 92/203 [49:18<1:07:58, 36.74s/it] 46%|████▌     | 93/203 [49:20<47:54, 26.13s/it]   46%|████▋     | 94/203 [49:51<50:35, 27.85s/it] 47%|████▋     | 95/203 [50:33<57:30, 31.95s/it] 47%|████▋     | 96/203 [50:47<47:29, 26.64s/it] 48%|████▊     | 97/203 [50:49<33:49, 19.15s/it] 48%|████▊     | 98/203 [51:16<37:50, 21.62s/it] 49%|████▉     | 99/203 [51:25<30:42, 17.71s/it] 49%|████▉     | 100/203 [52:20<49:48, 29.01s/it] 50%|████▉     | 101/203 [52:53<51:25, 30.25s/it] 50%|█████     | 102/203 [53:17<47:44, 28.36s/it] 51%|█████     | 103/203 [53:23<36:01, 21.62s/it] 51%|█████     | 104/203 [53:51<38:51, 23.55s/it] 52%|█████▏    | 105/203 [54:00<31:24, 19.23s/it] 52%|█████▏    | 106/203 [54:27<34:28, 21.32s/it] 53%|█████▎    | 107/203 [55:10<44:49, 28.01s/it] 53%|█████▎    | 108/203 [55:22<36:25, 23.00s/it] 54%|█████▎    | 109/203 [56:13<49:17, 31.46s/it] 54%|█████▍    | 110/203 [56:36<45:01, 29.05s/it] 55%|█████▍    | 111/203 [56:57<40:45, 26.59s/it] 55%|█████▌    | 112/203 [57:16<36:51, 24.30s/it] 56%|█████▌    | 113/203 [57:41<36:39, 24.43s/it] 56%|█████▌    | 114/203 [58:05<36:12, 24.41s/it] 57%|█████▋    | 115/203 [58:18<30:42, 20.93s/it] 57%|█████▋    | 116/203 [58:58<38:53, 26.82s/it] 58%|█████▊    | 117/203 [59:53<50:21, 35.13s/it] 58%|█████▊    | 118/203 [1:00:06<40:13, 28.39s/it] 59%|█████▊    | 119/203 [1:00:11<29:59, 21.43s/it] 59%|█████▉    | 120/203 [1:00:36<31:08, 22.51s/it] 60%|█████▉    | 121/203 [1:00:52<28:09, 20.60s/it] 60%|██████    | 122/203 [1:01:11<27:02, 20.03s/it] 61%|██████    | 123/203 [1:01:40<30:14, 22.68s/it] 61%|██████    | 124/203 [1:01:57<27:45, 21.09s/it] 62%|██████▏   | 125/203 [1:02:16<26:28, 20.37s/it] 62%|██████▏   | 126/203 [1:02:41<28:10, 21.96s/it] 63%|██████▎   | 127/203 [1:03:19<33:54, 26.76s/it] 63%|██████▎   | 128/203 [1:03:55<37:00, 29.60s/it] 64%|██████▎   | 129/203 [1:04:13<31:56, 25.89s/it] 64%|██████▍   | 130/203 [1:04:35<30:00, 24.67s/it] 65%|██████▍   | 131/203 [1:04:39<22:19, 18.60s/it] 65%|██████▌   | 132/203 [1:04:57<21:46, 18.40s/it] 66%|██████▌   | 133/203 [1:05:12<20:09, 17.27s/it] 66%|██████▌   | 134/203 [1:05:29<20:00, 17.41s/it] 67%|██████▋   | 135/203 [1:05:36<16:10, 14.27s/it] 67%|██████▋   | 136/203 [1:05:42<13:05, 11.72s/it] 67%|██████▋   | 137/203 [1:05:55<13:16, 12.07s/it] 68%|██████▊   | 138/203 [1:06:04<12:02, 11.12s/it] 68%|██████▊   | 139/203 [1:06:46<21:58, 20.60s/it] 69%|██████▉   | 140/203 [1:07:04<20:45, 19.77s/it] 69%|██████▉   | 141/203 [1:07:27<21:28, 20.78s/it] 70%|██████▉   | 142/203 [1:07:42<19:16, 18.97s/it] 70%|███████   | 143/203 [1:07:50<15:38, 15.65s/it] 71%|███████   | 144/203 [1:08:05<15:16, 15.53s/it] 71%|███████▏  | 145/203 [1:08:13<12:45, 13.21s/it] 72%|███████▏  | 146/203 [1:08:21<11:01, 11.60s/it] 72%|███████▏  | 147/203 [1:08:34<11:09, 11.96s/it] 73%|███████▎  | 148/203 [1:09:04<15:59, 17.45s/it] 73%|███████▎  | 149/203 [1:09:10<12:40, 14.09s/it] 74%|███████▍  | 150/203 [1:09:13<09:30, 10.76s/it] 74%|███████▍  | 151/203 [1:09:22<08:44, 10.08s/it] 75%|███████▍  | 152/203 [1:10:09<18:05, 21.28s/it] 75%|███████▌  | 153/203 [1:10:16<14:11, 17.04s/it] 76%|███████▌  | 154/203 [1:10:37<14:48, 18.13s/it] 76%|███████▋  | 155/203 [1:10:44<11:52, 14.85s/it] 77%|███████▋  | 156/203 [1:10:50<09:30, 12.13s/it] 77%|███████▋  | 157/203 [1:10:56<07:58, 10.41s/it] 78%|███████▊  | 158/203 [1:11:11<08:51, 11.82s/it] 78%|███████▊  | 159/203 [1:11:13<06:23,  8.72s/it] 79%|███████▉  | 160/203 [1:11:33<08:41, 12.13s/it] 79%|███████▉  | 161/203 [1:11:45<08:25, 12.05s/it] 80%|███████▉  | 162/203 [1:12:00<08:57, 13.10s/it] 80%|████████  | 163/203 [1:12:12<08:23, 12.58s/it] 81%|████████  | 164/203 [1:12:20<07:24, 11.39s/it] 81%|████████▏ | 165/203 [1:12:27<06:14,  9.84s/it] 82%|████████▏ | 166/203 [1:12:38<06:22, 10.33s/it] 82%|████████▏ | 167/203 [1:12:44<05:18,  8.84s/it] 83%|████████▎ | 168/203 [1:12:50<04:48,  8.24s/it] 83%|████████▎ | 169/203 [1:13:02<05:11,  9.16s/it] 84%|████████▎ | 170/203 [1:13:05<04:06,  7.48s/it] 84%|████████▍ | 171/203 [1:13:25<05:55, 11.11s/it] 85%|████████▍ | 172/203 [1:13:32<05:04,  9.82s/it] 85%|████████▌ | 173/203 [1:13:37<04:15,  8.53s/it] 86%|████████▌ | 174/203 [1:13:46<04:09,  8.60s/it] 86%|████████▌ | 175/203 [1:13:55<04:02,  8.65s/it] 87%|████████▋ | 176/203 [1:13:56<02:53,  6.41s/it] 87%|████████▋ | 177/203 [1:13:59<02:24,  5.54s/it] 88%|████████▊ | 178/203 [1:14:06<02:28,  5.94s/it] 88%|████████▊ | 179/203 [1:14:10<02:05,  5.24s/it] 89%|████████▊ | 180/203 [1:14:18<02:21,  6.16s/it] 89%|████████▉ | 181/203 [1:14:29<02:43,  7.45s/it] 90%|████████▉ | 182/203 [1:14:32<02:08,  6.14s/it] 90%|█████████ | 183/203 [1:14:33<01:33,  4.65s/it] 91%|█████████ | 184/203 [1:14:48<02:30,  7.94s/it] 91%|█████████ | 185/203 [1:14:50<01:50,  6.14s/it] 92%|█████████▏| 186/203 [1:14:57<01:45,  6.21s/it] 92%|█████████▏| 187/203 [1:15:09<02:07,  7.99s/it] 93%|█████████▎| 188/203 [1:15:10<01:27,  5.83s/it] 93%|█████████▎| 189/203 [1:15:11<01:03,  4.52s/it] 94%|█████████▎| 190/203 [1:15:15<00:57,  4.43s/it] 94%|█████████▍| 191/203 [1:15:16<00:38,  3.24s/it] 95%|█████████▍| 192/203 [1:15:17<00:29,  2.64s/it] 95%|█████████▌| 193/203 [1:15:18<00:21,  2.15s/it] 96%|█████████▌| 194/203 [1:15:24<00:29,  3.32s/it] 96%|█████████▌| 195/203 [1:15:25<00:19,  2.46s/it] 97%|█████████▋| 196/203 [1:15:26<00:15,  2.25s/it] 97%|█████████▋| 197/203 [1:15:33<00:21,  3.55s/it] 98%|█████████▊| 198/203 [1:15:35<00:14,  2.98s/it] 98%|█████████▊| 199/203 [1:15:36<00:09,  2.38s/it] 99%|█████████▊| 200/203 [1:15:37<00:06,  2.15s/it] 99%|█████████▉| 201/203 [1:15:40<00:04,  2.26s/it]100%|█████████▉| 202/203 [1:15:40<00:01,  1.75s/it]100%|██████████| 203/203 [1:15:41<00:00,  1.49s/it]100%|██████████| 203/203 [1:15:41<00:00, 22.37s/it]
+Saving new dataset pyg object at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/xucao2023/data_pyg/cell_graphs.pkl
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_062950-4me68lo1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run XuCao2023_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/4me68lo1
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/xucao2023/splits/xucao2023_simulation_1_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:51
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.056 MB uploadedwandb: | 0.056 MB of 0.056 MB uploadedwandb: / 0.056 MB of 0.056 MB uploadedwandb: - 0.056 MB of 0.056 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▂▄▃▁▂▅██▇▇█▅▅
+wandb:        epoch ▁▂▂▃▃▄▅▅▆▆▇▇█
+wandb:     val_loss ▂▂█▁▂▂▁▁▂▁▁▁▂
+wandb:      val_mre ▃▄█▂▂▃▁▂▂▁▂▂▂
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 774.46876
+wandb:               epoch 13
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 5164/5172 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 06:30:09
+wandb:            val_loss 0.01676
+wandb:             val_mre 17201.67324
+wandb: 
+wandb: 🚀 View run XuCao2023_split1 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/4me68lo1
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_062950-4me68lo1/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240727_095402-m5ffgzgo
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run XuCao2023_split2
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/m5ffgzgo
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/xucao2023/splits/xucao2023_simulation_2_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:51
+Done!
+Creating dataloaders....
+Done!
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/XuCao2023.py", line 491, in <module>
+    test_res = eval_perturb(test_loader, best_model, device, pert_data)
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/XuCao2023.py", line 277, in eval_perturb
+    p = model.pred_perturb(batch, include_zero_gene, gene_ids=gene_ids)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 322, in pred_perturb
+    output_dict = self(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 206, in forward
+    transformer_output = self._encode(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 141, in _encode
+    output = self.transformer_encoder(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 315, in forward
+    output = mod(output, src_mask=mask, is_causal=is_causal, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 591, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal))
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 599, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1205, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/functional.py", line 5373, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.76 GiB (GPU 0; 39.41 GiB total capacity; 15.89 GiB already allocated; 7.11 GiB free; 30.97 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/XuCao2023.py", line 491, in <module>
+    test_res = eval_perturb(test_loader, best_model, device, pert_data)
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/XuCao2023.py", line 277, in eval_perturb
+    p = model.pred_perturb(batch, include_zero_gene, gene_ids=gene_ids)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 322, in pred_perturb
+    output_dict = self(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 206, in forward
+    transformer_output = self._encode(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/generation_model.py", line 141, in _encode
+    output = self.transformer_encoder(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 315, in forward
+    output = mod(output, src_mask=mask, is_causal=is_causal, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 591, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal))
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 599, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1205, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/torch/nn/functional.py", line 5373, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.76 GiB (GPU 0; 39.41 GiB total capacity; 15.89 GiB already allocated; 7.11 GiB free; 30.97 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.065 MB uploadedwandb: | 0.001 MB of 0.069 MB uploadedwandb: / 0.069 MB of 0.069 MB uploadedwandb: - 0.069 MB of 0.069 MB uploadedwandb: 
+wandb: Run history:
+wandb: elapsed_time ▂▃▆▅▂▂▁▁▃▅▅▇▇▇█
+wandb:        epoch ▁▁▂▃▃▃▄▅▅▅▆▇▇▇█
+wandb:     val_loss █▂▁▃▁▁▁▂▂▁▂▁▁▁▁
+wandb:      val_mre █▃▂▁▂▂▂▁▂▄▂▂▁▃▁
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:        elapsed_time 820.55827
+wandb:               epoch 15
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 5164/5172 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-27 09:54:22
+wandb:            val_loss 0.0167
+wandb:             val_mre 15678.50524
+wandb: 
+wandb: 🚀 View run XuCao2023_split2 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/m5ffgzgo
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_095402-m5ffgzgo/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.

@@ -1,0 +1,21 @@
+Loading compilers/gcc/12.2.0
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload compilers/gcc" first.
+cmake-3.27.0 loaded successful
+Seed set to 42
+Found local copy...
+These perturbations are not in the GO graph and their perturbation can thus not be predicted
+['LYL1+IER5L' 'IER5L+ctrl' 'KIAA1804+ctrl']
+Local copy of pyg dataset is detected. Loading...
+Done!
+Local copy of split is detected. Loading...
+Simulation split test composition:
+combo_seen0:9
+combo_seen1:52
+combo_seen2:17
+unseen_single:27
+Done!
+Creating dataloaders....
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...

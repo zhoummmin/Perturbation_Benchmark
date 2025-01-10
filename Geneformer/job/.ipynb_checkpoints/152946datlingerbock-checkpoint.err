@@ -1,0 +1,4 @@
+Loading compilers/gcc/12.2.0
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload compilers/gcc" first.
+cmake-3.27.0 loaded successful

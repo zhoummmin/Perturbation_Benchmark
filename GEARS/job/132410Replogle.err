@@ -1,0 +1,23 @@
+cuda-11.8.0 loaded successful
+gcc-12.2.0 loaded successful
+cmake-3.27.0 loaded successful
+openmpi-4.1.2 loaded successful
+Openblas-0.3.25 loaded successful
+Found local copy...
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03final/Replogle_k562_essential.py", line 87, in <module>
+    pert_data.new_data_process(dataset_name = 'Replogle_k562_essential', adata = adata)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/gears/lib/python3.9/site-packages/gears/pertdata.py", line 254, in new_data_process
+    self.adata = get_dropout_non_zero_genes(self.adata)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/gears/lib/python3.9/site-packages/gears/data_utils.py", line 84, in get_dropout_non_zero_genes
+    mean_expression = np.array(list(condition2mean_expression.values())).reshape(len(adata.obs.condition.unique()), adata.X.toarray().shape[1])
+AttributeError: 'numpy.ndarray' object has no attribute 'toarray'
+Found local copy...
+Traceback (most recent call last):
+  File "/home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03final/Replogle_rpe1_essential.py", line 87, in <module>
+    pert_data.new_data_process(dataset_name = 'Replogle_rpe1_essential', adata = adata)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/gears/lib/python3.9/site-packages/gears/pertdata.py", line 254, in new_data_process
+    self.adata = get_dropout_non_zero_genes(self.adata)
+  File "/home/share/huadjyin/home/zhoumin3/.conda/envs/gears/lib/python3.9/site-packages/gears/data_utils.py", line 84, in get_dropout_non_zero_genes
+    mean_expression = np.array(list(condition2mean_expression.values())).reshape(len(adata.obs.condition.unique()), adata.X.toarray().shape[1])
+AttributeError: 'numpy.ndarray' object has no attribute 'toarray'

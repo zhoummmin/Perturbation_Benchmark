@@ -1,0 +1,181 @@
+cuda-11.8.0 loaded successful
+gcc-9.3.0 loaded successful
+cmake-3.27.0 loaded successful
+openmpi-4.1.2 loaded successful
+Openblas-0.3.25 loaded successful
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_042422-8iuwphhq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run AdamsonWeissman2016_GSM2406675_1_split2
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/8iuwphhq
+Local copy of pyg dataset is detected. Loading...
+Done!
+Local copy of split is detected. Loading...
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.033 MB uploadedwandb: | 0.033 MB of 0.033 MB uploadedwandb: / 0.033 MB of 0.033 MB uploadedwandb: - 0.033 MB of 0.033 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▁▁▁▁▁▁▁
+wandb:        epoch ▁▂▃▄▅▆▇█
+wandb:     val_loss ▇█▁▃▃▄▄▄
+wandb:      val_mre ▁▄█▄▄▃▅▆
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 42.49598
+wandb:               epoch 8
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4353/5001 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 04:24:34
+wandb:            val_loss 0.07741
+wandb:             val_mre 63330.84115
+wandb: 
+wandb: 🚀 View run AdamsonWeissman2016_GSM2406675_1_split2 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/8iuwphhq
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_042422-8iuwphhq/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_043242-bsoclpnz
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run AdamsonWeissman2016_GSM2406675_1_split3
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/bsoclpnz
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/adamsonweissman2016_gsm2406675_1/splits/adamsonweissman2016_gsm2406675_1_simulation_3_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.034 MB uploadedwandb: | 0.034 MB of 0.034 MB uploadedwandb: / 0.034 MB of 0.034 MB uploadedwandb: - 0.034 MB of 0.034 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▆▂▃▃█▃▂▁▂▃▂▅
+wandb:        epoch ▁▂▂▃▄▄▅▅▆▇▇█
+wandb:     val_loss █▅▆▄▄▄▁▂▁▄▅▅
+wandb:      val_mre ▁▃▄█▅▄▆▄▄▄▅▅
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 44.60155
+wandb:               epoch 12
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4353/5001 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 04:32:56
+wandb:            val_loss 0.07813
+wandb:             val_mre 66305.87915
+wandb: 
+wandb: 🚀 View run AdamsonWeissman2016_GSM2406675_1_split3 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/bsoclpnz
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_043242-bsoclpnz/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_044358-rjfq73d2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run AdamsonWeissman2016_GSM2406675_1_split4
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/rjfq73d2
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/adamsonweissman2016_gsm2406675_1/splits/adamsonweissman2016_gsm2406675_1_simulation_4_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.034 MB uploadedwandb: | 0.009 MB of 0.034 MB uploadedwandb: / 0.034 MB of 0.034 MB uploadedwandb: - 0.034 MB of 0.034 MB uploadedwandb: \ 0.034 MB of 0.034 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time █▆▁▁▁▁▃▁▂▃
+wandb:        epoch ▁▂▃▃▄▅▆▆▇█
+wandb:     val_loss █▂▃▂▁▄▄▂▂▂
+wandb:      val_mre ▁█▄▄▃▆▅▄▅▄
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 42.77728
+wandb:               epoch 10
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4353/5001 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 04:44:08
+wandb:            val_loss 0.07452
+wandb:             val_mre 55544.6139
+wandb: 
+wandb: 🚀 View run AdamsonWeissman2016_GSM2406675_1_split4 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/rjfq73d2
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_044358-rjfq73d2/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240726_045334-5vlby1mi
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run AdamsonWeissman2016_GSM2406675_1_split5
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/5vlby1mi
+Local copy of pyg dataset is detected. Loading...
+Done!
+Creating new splits....
+Saving new splits at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/adamsonweissman2016_gsm2406675_1/splits/adamsonweissman2016_gsm2406675_1_simulation_5_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:2
+Done!
+Creating dataloaders....
+Done!
+wandb: - 0.001 MB of 0.001 MB uploadedwandb: \ 0.001 MB of 0.035 MB uploadedwandb: | 0.002 MB of 0.035 MB uploadedwandb: / 0.002 MB of 0.035 MB uploadedwandb: - 0.035 MB of 0.035 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: elapsed_time ▂▇▃▄▄▁▁▂▁█▂▁▂▂
+wandb:        epoch ▁▂▂▃▃▄▄▅▅▆▆▇▇█
+wandb:     val_loss ██▄▄▄▅▃▄▁▂▃▄▅▆
+wandb:      val_mre ▁▃▁▄▄█▁▄▃▃▄▂▃▄
+wandb: 
+wandb: Run summary:
+wandb:     best_model_info Best model with scor...
+wandb:     early_stop_info Early stop at epoch ...
+wandb:        elapsed_time 41.65182
+wandb:               epoch 14
+wandb: loading_params_info Loading params trans...
+wandb:          match_info match 4353/5001 gene...
+wandb:   resume_model_info Resume model from /h...
+wandb:            run_time 2024-07-26 04:53:44
+wandb:            val_loss 0.08144
+wandb:             val_mre 60368.34473
+wandb: 
+wandb: 🚀 View run AdamsonWeissman2016_GSM2406675_1_split5 at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/5vlby1mi
+wandb: ⭐️ View project at: https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240726_045334-5vlby1mi/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.

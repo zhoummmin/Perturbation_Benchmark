@@ -1,0 +1,20 @@
+cuda-11.8.0 loaded successful
+gcc-9.3.0 loaded successful
+cmake-3.27.0 loaded successful
+openmpi-4.1.2 loaded successful
+Openblas-0.3.25 loaded successful
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/share/huadjyin/home/zhoumin3/.conda/envs/scgpt/lib/python3.9/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  self.hub = sentry_sdk.Hub(client)
+Creating pyg object for each cell in the data...
+  0%|          | 0/23 [00:00<?, ?it/s]  4%|▍         | 1/23 [00:17<06:23, 17.42s/it]  9%|▊         | 2/23 [00:30<05:09, 14.74s/it] 13%|█▎        | 3/23 [00:34<03:20, 10.01s/it] 17%|█▋        | 4/23 [00:40<02:36,  8.26s/it] 22%|██▏       | 5/23 [00:47<02:21,  7.87s/it] 26%|██▌       | 6/23 [00:49<01:40,  5.88s/it] 30%|███       | 7/23 [00:54<01:29,  5.61s/it] 35%|███▍      | 8/23 [01:00<01:28,  5.87s/it] 39%|███▉      | 9/23 [01:06<01:20,  5.78s/it] 43%|████▎     | 10/23 [01:12<01:14,  5.76s/it] 48%|████▊     | 11/23 [01:20<01:19,  6.59s/it] 52%|█████▏    | 12/23 [01:30<01:23,  7.63s/it] 57%|█████▋    | 13/23 [01:37<01:13,  7.36s/it] 61%|██████    | 14/23 [01:38<00:49,  5.52s/it] 65%|██████▌   | 15/23 [01:41<00:36,  4.59s/it] 70%|██████▉   | 16/23 [01:46<00:33,  4.84s/it] 74%|███████▍  | 17/23 [01:51<00:29,  4.96s/it] 78%|███████▊  | 18/23 [01:58<00:27,  5.60s/it] 83%|████████▎ | 19/23 [02:02<00:20,  5.13s/it] 87%|████████▋ | 20/23 [02:13<00:20,  6.87s/it] 91%|█████████▏| 21/23 [02:19<00:13,  6.62s/it] 96%|█████████▌| 22/23 [02:21<00:05,  5.19s/it]100%|██████████| 23/23 [02:24<00:00,  4.36s/it]100%|██████████| 23/23 [02:24<00:00,  6.27s/it]
+Saving new dataset pyg object at /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/dixit_combined/data_pyg/cell_graphs.pkl
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/benchmark_data/01A_total_re/03scgpt/script/wandb/run-20240729_041445-ace85b8a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Dixit_combined_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/01_dataset_all_scgpt/runs/ace85b8a

@@ -1,0 +1,127 @@
+---Environment setup completed---
+-------Dixit_GSM2396858
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396858/sclong/split1
+---Creating test_res
+test_res saved successfully----
+split1
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396858/sclong/split2
+---Creating test_res
+test_res saved successfully----
+split2
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396858/sclong/split3
+---Creating test_res
+test_res saved successfully----
+split3
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396858/sclong/split4
+---Creating test_res
+test_res saved successfully----
+split4
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396858/sclong/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Dixit_GSM2396858-------
+-------Dixit_GSM2396861
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396861/sclong/split1
+---Creating test_res
+test_res saved successfully----
+split1
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396861/sclong/split2
+---Creating test_res
+test_res saved successfully----
+split2
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396861/sclong/split3
+---Creating test_res
+test_res saved successfully----
+split3
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396861/sclong/split4
+---Creating test_res
+test_res saved successfully----
+split4
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['AC011841.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_GSM2396861/sclong/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Dixit_GSM2396861-------
+-------Dixit_combined
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['RP11-180C16.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_combined/sclong/split1
+---Creating test_res
+test_res saved successfully----
+split1
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['RP11-180C16.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_combined/sclong/split2
+---Creating test_res
+test_res saved successfully----
+split2
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['RP11-180C16.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_combined/sclong/split3
+---Creating test_res
+test_res saved successfully----
+split3
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['RP11-180C16.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_combined/sclong/split4
+---Creating test_res
+test_res saved successfully----
+split4
+Use accumulation steps: 1
+Use mode: v1
+The following nodes were not present in the edge list and have been added to the graph as self-edges: ['RP11-180C16.1']
+No Single cell model load!
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Dixit_combined/sclong/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Dixit_combined-------

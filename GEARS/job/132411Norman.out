@@ -1,0 +1,27 @@
+---Environment setup completed---
+LYL1+IER5L
+IER5L+ctrl
+KIAA1804+ctrl
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_normanweissman2019.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/NormanWeissman2019/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/NormanWeissman2019/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/NormanWeissman2019/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/NormanWeissman2019/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/NormanWeissman2019/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5

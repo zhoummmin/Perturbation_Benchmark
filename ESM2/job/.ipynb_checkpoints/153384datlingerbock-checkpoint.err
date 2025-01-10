@@ -1,0 +1,28 @@
+Loading compilers/gcc/12.2.0
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload compilers/gcc" first.
+cmake-3.27.0 loaded successful
+Found local copy...
+These perturbations are not in the GO graph and their perturbation can thus not be predicted
+[]
+Local copy of pyg dataset is detected. Loading...
+Done!
+Local copy of split is detected. Loading...
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:8
+Done!
+Creating dataloaders....
+Done!
+wandb: Currently logged in as: zhoumin1130. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.18.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /home/share/huadjyin/home/zhoumin3/zhoumin/Gears_change/gears_esm/wandb/run-20240923_172832-7drfcdl5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gears_esm_DatlingerBock2017_stimulated_split1
+wandb: ⭐️ View project at https://wandb.ai/zhoumin1130/New_gears
+wandb: 🚀 View run at https://wandb.ai/zhoumin1130/New_gears/runs/7drfcdl5
+  0%|                                                        | 0/3118 [00:00<?, ?it/s]  0%|                                                | 2/3118 [00:00<02:42, 19.13it/s]  0%|                                                | 6/3118 [00:00<01:45, 29.42it/s]  0%|▏                                               | 9/3118 [00:00<01:46, 29.25it/s]  0%|▏                                              | 15/3118 [00:00<01:26, 35.84it/s]  1%|▎                                              | 20/3118 [00:00<01:19, 39.09it/s]  1%|▎                                              | 24/3118 [00:00<01:20, 38.48it/s]  1%|▍                                              | 29/3118 [00:00<01:13, 41.88it/s]  1%|▌                                              | 34/3118 [00:00<01:15, 40.96it/s]  1%|▌                                              | 39/3118 [00:01<01:16, 40.19it/s]  1%|▋                                              | 44/3118 [00:01<01:17, 39.53it/s]  2%|▋                                              | 48/3118 [00:01<01:17, 39.43it/s]  2%|▊                                              | 52/3118 [00:01<01:23, 36.81it/s]  2%|▊                                              | 56/3118 [00:01<01:21, 37.38it/s]  2%|▉                                              | 61/3118 [00:01<01:20, 37.74it/s]  2%|▉                                              | 65/3118 [00:01<01:20, 38.16it/s]  2%|█                                              | 70/3118 [00:01<01:20, 37.91it/s]  2%|█                                              | 74/3118 [00:01<01:19, 38.06it/s]  3%|█▏                                             | 78/3118 [00:02<01:26, 35.32it/s]  3%|█▏                                             | 82/3118 [00:02<01:23, 36.21it/s]  3%|█▎                                             | 86/3118 [00:02<01:29, 34.04it/s]  3%|█▎                                             | 90/3118 [00:02<01:33, 32.47it/s]  3%|█▍                                             | 94/3118 [00:02<01:36, 31.43it/s]  3%|█▍                                             | 98/3118 [00:02<01:38, 30.71it/s]  3%|█▌                                            | 102/3118 [00:02<01:40, 30.06it/s]  3%|█▌                                            | 106/3118 [00:03<01:42, 29.41it/s]  3%|█▌                                            | 109/3118 [00:03<01:43, 29.13it/s]  4%|█▋                                            | 112/3118 [00:03<02:01, 24.72it/s]  4%|█▋                                            | 116/3118 [00:03<01:49, 27.45it/s]  4%|█▊                                            | 120/3118 [00:03<01:44, 28.82it/s]  4%|█▊                                            | 123/3118 [00:03<01:59, 25.14it/s]  4%|█▊                                            | 127/3118 [00:03<01:48, 27.62it/s]  4%|█▉                                            | 131/3118 [00:03<01:41, 29.32it/s]  4%|█▉                                            | 135/3118 [00:04<01:36, 30.77it/s]  4%|██                                            | 139/3118 [00:04<01:32, 32.05it/s]  5%|██                                            | 143/3118 [00:04<01:30, 32.84it/s]  5%|██▏                                           | 147/3118 [00:04<01:28, 33.57it/s]  5%|██▏                                           | 151/3118 [00:04<01:27, 34.04it/s]  5%|██▎                                           | 155/3118 [00:04<01:39, 29.75it/s]  5%|██▍                                           | 161/3118 [00:04<01:24, 34.86it/s]

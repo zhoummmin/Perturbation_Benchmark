@@ -1,0 +1,71 @@
+---Environment setup completed---
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_adamsonweissman2016_gsm2406675_1.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406675_1/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406675_1/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406675_1/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406675_1/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406675_1/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_adamsonweissman2016_gsm2406677_2.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406677_2/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406677_2/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406677_2/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406677_2/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406677_2/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
+C7orf26+ctrl
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_adamsonweissman2016_gsm2406681_3.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406681_3/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406681_3/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406681_3/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406681_3/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/AdamsonWeissman2016_GSM2406681_3/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5

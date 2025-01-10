@@ -1,0 +1,54 @@
+---Environment setup completed---
+C7orf26+ctrl
+SEM1+ctrl
+FAU+ctrl
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_replogle_k562_essential.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_k562_essential/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_k562_essential/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_k562_essential/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_k562_essential/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_k562_essential/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
+C7orf26+ctrl
+FAU+ctrl
+SEM1+ctrl
+AC118549.1+ctrl
+Creating custom GO graph, this can take a few minutes
+Saving edge_list to file
+Trying to save file to: ./data/go_essential_replogle_rpe1_essential.csv
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/gears/split1
+---Creating test_res
+test_res saved successfully----
+split1
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/gears/split2
+---Creating test_res
+test_res saved successfully----
+split2
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/gears/split3
+---Creating test_res
+test_res saved successfully----
+split3
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/gears/split4
+---Creating test_res
+test_res saved successfully----
+split4
+saving to /home/share/huadjyin/home/zhoumin3/zhoumin/model_benchmark/01_A_results/Replogle_rpe1_essential/gears/split5
+---Creating test_res
+test_res saved successfully----
+split5
