@@ -1,1 +1,7 @@
+./demo_data/data_pyg/cell_graphs.pkl
+./methods/scELMo/GPT35_gene_embeddings.pickle
+./methods/scFoundation/demo_data/go.csv
+./methods/scFoundation/demo_data/data_pyg/cell_graphs.pkl
+./methods/scFoundation/demo_data/perturb_processed.h5ad
+./methods/GenePT/GenePT_gene_embeddings.pickle
 .DS_Store
