@@ -61,7 +61,6 @@ def evaluate_new(loader, model, uncertainty, device,  pert_data: PertData):
             for itr, de_idx in enumerate(batch.de_idx):
                 pred_de.append(p[itr, de_idx])
                 truth_de.append(t[itr, de_idx])
-                # 获取对应的基因名称
                 gene_names_de = [pert_data.adata.var_names[i] for i in de_idx]
                 gene_ids_de.append(gene_names_de)
 
